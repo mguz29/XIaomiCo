@@ -1,0 +1,154 @@
+{
+  "header-layout.mobile": {
+    "title": "header Mobile",
+    "children": ["header-row#1-mobile", "header-row#2-mobile"],
+    "props": {
+      "blockClass": "header-layou--containert#home"
+    }
+  },
+  "header-row#1-mobile": {
+    "title": "header row1 ",
+    "children": ["rich-text#header"],
+    "props": {
+      "blockClass": "header-layout--containert"
+    }
+  },
+  "header-row#2-mobile": {
+    "children": [
+      "drawer#header__mobile--menu",
+      "header-spacer",
+      //"search-bar",
+      "login",
+      "header-spacer",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "header__drawerContainer"
+    }
+  },
+  //   "search-bar": {
+  //     "props": {
+  //       "blockClass": "search_mobile"
+  //     }
+
+  "login": {
+    "props": {
+      "showIconProfile": true,
+      "blockClass": "section__one--login"
+    }
+  },
+  "drawer#header__mobile--menu": {
+    "children": ["menu#header-menu"]
+  },
+  "menu#header-menu": {
+    "children": [
+      "menu-item#department__one",
+      "menu-item#department__two",
+      "menu-item#department__three",
+      "menu-item#department__four",
+      "menu-item#department__five",
+      "menu-item#department__six"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#department__one": {
+    "props": {
+      "id": "category-ne",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "google title",
+        "text": "Smartphones"
+      }
+    },
+    "blocks": ["submenu.accordion#category__one"]
+  },
+  "submenu.accordion#category__one": {
+    "children": ["menu#department__one"]
+  },
+  "menu#department__one": {
+    "children": ["slider-layout#home__slider--children"]
+  },
+  //   "menu-item#category__one": {
+  //     "props": {
+  //       "id": "category-one",
+  //       "type": "custom",
+  //       "itemProps": {
+  //         "type": "external",
+  //         "href": "/",
+  //         "noFollow": true,
+  //         "tagTitle": "Google Drive",
+  //         "text": "xiaomi mi 11lite"
+  //       }
+  //     }
+  //   },
+  "menu-item#department__two": {
+    "props": {
+      "id": "category-ne",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.xiaomi-store.co/",
+        "noFollow": true,
+        "tagTitle": "google title",
+        "text": "Hogar conectado"
+      }
+    }
+  },
+  "menu-item#department__three": {
+    "props": {
+      "id": "category-ne",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.xiaomi-store.co/",
+        "noFollow": true,
+        "tagTitle": "google title",
+        "text": "Movilidad"
+      }
+    }
+  },
+  "menu-item#department__four": {
+    "props": {
+      "id": "category-ne",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.xiaomi-store.co/",
+        "noFollow": true,
+        "tagTitle": "google title",
+        "text": "Fitness & Lifestyle"
+      }
+    }
+  },
+  "menu-item#department__five": {
+    "props": {
+      "id": "category-ne",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.xiaomi-store.co/",
+        "noFollow": true,
+        "tagTitle": "google title",
+        "text": "Gadgest y juguetes"
+      }
+    }
+  },
+  "menu-item#department__six": {
+    "props": {
+      "id": "category-ne",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.xiaomi-store.co/",
+        "noFollow": true,
+        "tagTitle": "google title",
+        "text": "Audio"
+      }
+    }
+  }
+}

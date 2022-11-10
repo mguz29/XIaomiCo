@@ -1,0 +1,25 @@
+.imageElement--home__image {
+  box-shadow: 29px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.searchBarContainer {
+  display: none;
+}
+.logoImage--logoHeader {
+  position: absolute;
+  width: 100%;
+  left: -200px;
+  transition: all 0.2s ease-in-out;
+  max-width: 110px;
+}
+.logoContainer--logoHeader {
+  position: absolute;
+  width: 100%;
+  left: -55px;
+  transition: all 0.2s ease-in-out;
+  max-width: 110px;
+}
+.search_mobile {
+  display: none;
+}
+
+

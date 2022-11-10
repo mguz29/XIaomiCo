@@ -1,0 +1,19 @@
+.headerRowContainer {
+  max-height: 35px;
+}
+.headerRowBackground--header-layout--containert {
+  background-color: #1c1c1c;
+}
+.headerRowContainer--row1--logo {
+  margin: 10px 0px 0px 10px;
+}
+.headerRowContainer--header__drawerContainer {
+  position: fixed;
+  bottom: 1px;
+  width: 100%;
+  background-color: white;
+}
+
+/* .headerRowContainer--header__drawerContainer :global(.c-muted) {
+  visibility: hidden;
+} */

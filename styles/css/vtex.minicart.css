@@ -1,0 +1,9 @@
+/* .cartIcon{
+    visibility: hidden;
+}
+
+.cartIcon::before {
+  content: "CARRITO";
+  visibility: visible;
+  color: #a8a8a8;
+} */

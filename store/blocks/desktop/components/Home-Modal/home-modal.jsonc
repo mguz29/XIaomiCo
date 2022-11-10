@@ -1,0 +1,22 @@
+{
+  "modal-trigger#home__modal--children": {
+    "children": [
+      "rich-text#home__modal--trigger",
+      "modal-layout#home__modal--layout"
+    ]
+  },
+  "rich-text#home__modal--trigger": {
+    "props": {
+      "text": "Terminos y condiciones"
+    }
+  },
+
+  "modal-layout#home__modal--layout": {
+    "children": ["rich-text#home__modal--content"]
+  },
+  "rich-text#home__modal--content": {
+    "props": {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque sem consectetur, tincidunt tortor ac, convallis mauris. Proin lobortis mauris quis urna consectetur interdum. Etiam scelerisque augue sit amet dolor tincidunt, at faucibus mi venenatis. Suspendisse magna mauris, interdum id leo non, sollicitudin cursus dui. Pellentesque gravida ligula eros, in sodales massa elementum a. Curabitur ultrices facilisis est, quis molestie diam bibendum non. Vestibulum sagittis velit sed enim pulvinar euismod vel vitae lacus. Cras at elementum risus, tincidunt ornare enim. Pellentesque quis elit cursus, volutpat arcu vitae, fermentum tortor. Curabitur id eleifend mi, sed convallis turpis. Duis cursus, augue id."
+    }
+  }
+}

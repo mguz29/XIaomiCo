@@ -1,0 +1,12 @@
+{
+  "store.home": {
+    "blocks": [
+      "slider-layout#home__slider--children",
+      "flex-layout.row#home__section--ofertas",
+      "flex-layout.row#home__section--banner",
+      // "modal-trigger#home__modal--children",
+      "rich-text#home__section--tittle",
+      "flex-layout.row#home__section--bannerSecundario"
+    ]
+  }
+}
