@@ -1,0 +1,53 @@
+{
+  //   "list-context.product-list#productlist_1": {
+  //     "title": "Vitrina 1",
+  //     "blocks": ["product-summary.shelf#productlist_1"],
+  //     "children": ["rich-text#productlist_1", "slider-layout#productlist_1"]
+  //   },
+  //   "rich-text#productlist_1": {
+  //     "props": {
+  //       "text": "Descubre los productos mejor calificados",
+  //       "blockClass": "productlist_1"
+  //     }
+  //   },
+  //   "product-summary.shelf#productlist_1": {
+  //     "children": [
+  //       "product-summary-image",
+  //       //   "vtex.store-components:product-brand",
+  //       "product-summary-name",
+  //       "product-summary-space",
+  //       "product-summary-price"
+  //       //   "product-rating-inline",
+  //       //   "flex-layout.row#productlist_1"
+  //     ]
+  //   },
+  //   "slider-layout#productlist_1": {
+  //     "props": {
+  //       "itemsPerPage": {
+  //         "desktop": 4
+  //       },
+  //       "infinite": false,
+  //       "fullWidth": true,
+  //       "arrowSize": 10,
+  //       "blockClass": "productlist_1"
+  //     }
+  //   },
+  //   "product-summary-name": {
+  //     "props": {
+  //       "tag": "h3"
+  //     }
+  //   }
+  //   //   "flex-layout.row#productlist_1": {
+  //   //     "children": ["add-to-cart-button#productlist_1"],
+  //   //     "props": {
+  //   //       "blockClass": "productlist_1"
+  //   //     }
+  //   //   },
+  //   //   "add-to-cart-button#productlist_1": {
+  //   //     "props": {
+  //   //       "text": "VER PRODUCTO",
+  //   //       "onClickBehavior": "go-to-product-page",
+  //   //       "blockClass": "showproduct"
+  //   //     }
+  //   //   }
+}

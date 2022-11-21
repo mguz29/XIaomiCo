@@ -1,0 +1,46 @@
+.element--Conatiner--summary
+  :global(.vtex-reviews-and-ratings-3-x-inlineContainer) {
+  margin-left: 0;
+}
+.element--Conatiner--summary :global(.vtex-product-summary-2-x-productBrand) {
+  /* height: 32px; */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 1.25;
+  font-size: 13.5px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1c1c1c;
+  padding-top: 5px;
+  margin-left: 10px;
+}
+.element--Conatiner--summary :global(.vtex-product-summary-2-x-nameContainer) {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.element--Conatiner--summary :global(.vtex-reviews-and-ratings-3-x-stars) {
+  color: #ff6709 !important;
+}
+.element--Conatiner--summary
+  :global(.vtex-store-components-3-x-installmentsPrice) {
+  display: none;
+}
+
+.brandName--product-summary--name {
+  font-size: 13px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1c1c1c;
+}

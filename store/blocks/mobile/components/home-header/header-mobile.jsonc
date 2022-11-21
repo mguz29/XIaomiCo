@@ -1,44 +1,66 @@
 {
   "header-layout.mobile": {
     "title": "header Mobile",
-    "children": ["header-row#1-mobile", "header-row#2-mobile"],
+    "children": ["header-row#2-mobile", "sticky-layout#header-mobile"],
     "props": {
-      "blockClass": "header-layou--containert#home"
+      "blockClass": "header__drawerContainer--bottom2"
+    }
+  },
+  "sticky-layout#header-mobile": {
+    "children": ["header-row#1-mobile", "header-row#3-mobile"],
+    "props": {
+      "position": "TOP"
     }
   },
   "header-row#1-mobile": {
     "title": "header row1 ",
     "children": ["rich-text#header"],
     "props": {
-      "blockClass": "header-layout--containert"
+      "blockClass": "header-layout--containert--mobile"
+    }
+  },
+  "header-row#3-mobile": {
+    "children": ["image#logo-header"],
+    "props": {
+      "blockClass": "header--container-logo"
+    }
+  },
+  "image#logo-header": {
+    "props": {
+      "blockClass": "header__logo--headersecond",
+      "src": "assets/img/icon payments/logo-header.png"
     }
   },
   "header-row#2-mobile": {
     "children": [
       "drawer#header__mobile--menu",
-      "header-spacer",
-      //"search-bar",
-      "login",
-      "header-spacer",
-      "minicart.v2"
+      //      "header-spacer",
+      "search-bar#header__searchMobile",
+      "minicart.v2",
+      "login"
+      // "header-spacer",
     ],
     "props": {
-      "blockClass": "header__drawerContainer"
+      "blockClass": "header__drawerContainer--bottom"
     }
   },
-  //   "search-bar": {
-  //     "props": {
-  //       "blockClass": "search_mobile"
-  //     }
-
+  "search-bar#header__searchMobile": {
+    //   "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true
+    }
+  },
   "login": {
     "props": {
-      "showIconProfile": true,
-      "blockClass": "section__one--login"
+      "showIconProfile": true
     }
   },
   "drawer#header__mobile--menu": {
-    "children": ["menu#header-menu"]
+    "children": ["menu#header-menu"],
+    "props": {
+      "blockClass": "menu-drawer--mobile",
+      "slideDirection": "rightToLeft"
+    }
   },
   "menu#header-menu": {
     "children": [
@@ -47,10 +69,12 @@
       "menu-item#department__three",
       "menu-item#department__four",
       "menu-item#department__five",
-      "menu-item#department__six"
+      "menu-item#department__six",
+      "menu-item#department__seven"
     ],
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "header--menu__mobile"
     }
   },
   "menu-item#department__one": {
@@ -148,6 +172,20 @@
         "noFollow": true,
         "tagTitle": "google title",
         "text": "Audio"
+      }
+    }
+  },
+  "menu-item#department__seven": {
+    "props": {
+      "id": "category-ne",
+      "type": "custom",
+      "blockClass": "menu--item__department",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.xiaomi-store.co/",
+        "noFollow": true,
+        "tagTitle": "google title",
+        "text": "Ver Todo"
       }
     }
   }

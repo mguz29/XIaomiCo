@@ -6,6 +6,30 @@
   transform: translateY(30px);
   display: none;
 }
-.imageElement--home__slider{
-    max-height: initial !important;
+.imageElement--home__slider {
+  max-height: initial !important;
+}
+
+.slide--home__slider--products {
+  width: 5% !important;
+  background-color: #fff;
+}
+.sliderTrackContainer--home__slider--products {
+  max-width: 1430px;
+  margin: 0 auto;
+}
+
+.sliderTrack--home__slider--products {
+  padding-bottom: 2rem;
+}
+.paginationDotsContainer--home__slider--productos--recomendados {
+  display: none;
+}
+.slide--home__slider--productos--recomendados {
+  width: 5% !important;
+  background-color: #fff;
+}
+.sliderTrackContainer--home__slider--productos--recomendados {
+  max-width: 1430px;
+  margin: 0 auto;
 }

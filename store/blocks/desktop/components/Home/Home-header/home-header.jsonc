@@ -27,10 +27,10 @@
   },
   "header-row#2-desktop": {
     "children": [
-      "header-border",
+      "header-force-center",
       "rich-text#header",
       "header-spacer",
-      //"search-bar",
+      "search-bar",
       "header-spacer",
       "login",
       "minicart.v2"
@@ -49,18 +49,20 @@
   },
   "menu#header-menu--desktop": {
     "children": [
-      "menu-item#department__one",
-      "menu-item#department__two",
-      "menu-item#department__three",
-      "menu-item#department__four",
-      "menu-item#department__five",
-      "menu-item#department__six"
+      "menu-item#department__oneDesktop",
+      "menu-item#department__dtwo",
+      "menu-item#department__dthree",
+      "menu-item#department__dfour",
+      "menu-item#department__dfive",
+      "menu-item#department__dsix",
+      "menu-item#department__dseven"
     ]
   },
-  "menu-item#department__one": {
+  "menu-item#department__oneDesktop": {
     "props": {
       "id": "category-ne",
       "type": "custom",
+      "blockClass": "header--menu__item",
       "itemProps": {
         "type": "external",
         "href": "https://www.google.com/",
@@ -69,13 +71,13 @@
         "text": "Smartphones"
       }
     },
-    "blocks": ["submenu.accordion#category__one"]
+    "blocks": ["submenu#category__oneDesktop"]
   },
-  "submenu.accordion#category__one": {
-    "children": ["menu#department__one"]
+  "submenu#category__oneDesktop": {
+    "children": ["menu#department__oneDesktop"]
   },
-  "menu#department__one": {
-    "children": ["slider-layout#home__slider--children"]
+  "menu#department__oneDesktop": {
+    "children": ["flex-layout.col#productos--recomendados"]
   },
   //   "menu-item#category__one": {
   //     "props": {
@@ -90,10 +92,11 @@
   //       }
   //     }
   //   },
-  "menu-item#department__two": {
+  "menu-item#department__dtwo": {
     "props": {
       "id": "category-ne",
       "type": "custom",
+      "blockClass": "header--menu__item",
       "itemProps": {
         "type": "external",
         "href": "https://www.xiaomi-store.co/",
@@ -103,10 +106,11 @@
       }
     }
   },
-  "menu-item#department__three": {
+  "menu-item#department__dthree": {
     "props": {
       "id": "category-ne",
       "type": "custom",
+      "blockClass": "header--menu__item",
       "itemProps": {
         "type": "external",
         "href": "https://www.xiaomi-store.co/",
@@ -116,10 +120,11 @@
       }
     }
   },
-  "menu-item#department__four": {
+  "menu-item#department__dfour": {
     "props": {
       "id": "category-ne",
       "type": "custom",
+      "blockClass": "header--menu__item",
       "itemProps": {
         "type": "external",
         "href": "https://www.xiaomi-store.co/",
@@ -129,10 +134,11 @@
       }
     }
   },
-  "menu-item#department__five": {
+  "menu-item#department__dfive": {
     "props": {
       "id": "category-ne",
       "type": "custom",
+      "blockClass": "header--menu__item",
       "itemProps": {
         "type": "external",
         "href": "https://www.xiaomi-store.co/",
@@ -142,10 +148,11 @@
       }
     }
   },
-  "menu-item#department__six": {
+  "menu-item#department__dsix": {
     "props": {
       "id": "category-ne",
       "type": "custom",
+      "blockClass": "header--menu__item",
       "itemProps": {
         "type": "external",
         "href": "https://www.xiaomi-store.co/",
@@ -154,18 +161,28 @@
         "text": "Audio"
       }
     }
+  },
+  "menu-item#department__dseven": {
+    "props": {
+      "id": "category-ne",
+      "type": "custom",
+      "blockClass": "header--menu__item",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.xiaomi-store.co/",
+        "noFollow": true,
+        "tagTitle": "google title",
+        "text": "Ver Todo"
+      }
+    }
+  },
+
+  "search-bar": {
+    "props": {
+      "maxWidth": "300px",
+      "placeholder": "Buscar Productos"
+    }
   }
-  // "search-bar": {
-  //   "props": {
-  //     "blockClass": "header__searchBar",
-  //     "maxWidth": "300px",
-  //     "height": "10px",
-  //     "placeholder": "Buscar Productos"
-  //     //   "displayMode": {
-  //     //     "search-button": "search-button"
-  //     //   }
-  //   }
-  // },
 
   // "header": {
   //   "blocks": ["header-layout.desktop", "header-layout.mobile"]

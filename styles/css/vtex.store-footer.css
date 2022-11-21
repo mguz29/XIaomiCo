@@ -1,0 +1,30 @@
+.footerLayout {
+  border-bottom: 2px solid #878787;
+}
+.socialNetworksTitle {
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #a8a8a8;
+}
+.footerLayout--footer__container--mobile {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.socialNetworkWrapper--footer--section-socialNetworks {
+  padding: 15px;
+}
+.socialNetworksTitle--footer--section-socialNetworks {
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #a8a8a8;
+  font-size: 13px;
+  line-height: 1.35;
+}

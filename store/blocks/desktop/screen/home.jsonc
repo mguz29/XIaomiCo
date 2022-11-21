@@ -1,12 +1,54 @@
 {
   "store.home": {
     "blocks": [
-      "slider-layout#home__slider--children",
+      "responsive-layout.desktop",
+      "responsive-layout.mobile",
       "flex-layout.row#home__section--ofertas",
       "flex-layout.row#home__section--banner",
-      // "modal-trigger#home__modal--children",
-      "rich-text#home__section--tittle",
+      "flex-layout.row#productos--home",
+      "flex-layout.row#productos--home-recomendados",
       "flex-layout.row#home__section--bannerSecundario"
+      // "responsive-layout.desktop#products",
+      // "list-context.product-list#productlist_1"
+      // "modal-trigger#home__modal--children",
+      // "rich-text#home__section--tittle",
+      // "search-result-layout.customQuery#home__search"
     ]
   }
+
+  // "search-result-layout.customQuery#home__search": {
+  //   "props": {
+  //     "querySchema": {
+  //       "skusFilter": "ALL",
+  //       "simulationBehavior": "skip"
+  //     }
+  //   },
+  //   "blocks": [
+  //     "search-result-layout.desktop#home__search--desktop",
+  //     "search-result-layout.mobile#home__search--mobile"
+  //   ]
+  // },
+  // "search-result-layout.desktop#home__search--desktop": {
+  //   "children": ["rich-text#prueba"]
+  // },
+  // "rich-text#prueba": {
+  //   "props": {
+  //     "text": "este texto es de prueba Desktop"
+  //   }
+  // },
+  // "search-result-layout.mobile#home__search--mobile": {
+  //   "children": ["flex-layout.row#home__results"]
+  // },
+  // "flex-layout.row#home__results": {
+  //   "children": ["flex-layout.col#home__results--search"]
+  // },
+  // "flex-layout.col#home__results--search": {
+  //   "children": ["search-content#home__results--search"]
+  // },
+  // "search-content#home__results--search": {
+  //   "blocks": ["gallery", "not-found"]
+  // },
+  // "gallery": {
+  //   "blocks": ["product-summary.shelf"]
+  // }
 }
