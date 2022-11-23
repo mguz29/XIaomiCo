@@ -228,3 +228,82 @@
   text-align: center;
   margin: 0 15px;
 }
+
+.container--title-collage-productos-estrellas::before {
+  content: " ";
+  width: 100%;
+  min-width: 25%;
+  background-color: #1c1c1c;
+  height: 2px;
+  margin: auto;
+}
+.container--title-collage-productos-estrellas::after {
+  content: " ";
+  width: 100%;
+  min-width: 25%;
+  background-color: #1c1c1c;
+  height: 2px;
+  margin: auto;
+}
+
+.paragraph--title-collage-productos-estrellas {
+  font-size: 25px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.34;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1c1c1c;
+  text-transform: uppercase;
+}
+
+.wrapper--title-collage-productos-estrellas {
+  width: max-content;
+  white-space: nowrap;
+  text-align: center;
+  margin: 0 22px;
+}
+.container--title--slider-products-mobile {
+  justify-content: center;
+}
+.paragraph--title--slider-products-mobile {
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.34;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1c1c1c;
+  text-transform: uppercase;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 18px;
+  white-space: normal;
+  justify-content: center;
+}
+.container--title-collage-productos-estrellas-mobile {
+  justify-content: center;
+  margin-top: 7%;
+}
+.wrapper--title-collage-productos-estrellas-mobile {
+  width: max-content;
+  white-space: nowrap;
+  text-align: center;
+  margin: 0 22px;
+}
+.paragraph--title-collage-productos-estrellas-mobile {
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.34;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1c1c1c;
+  text-transform: uppercase;
+  width: 100%;
+  white-space: nowrap;
+  font-size: 18px;
+  white-space: normal;
+  justify-content: center;
+}

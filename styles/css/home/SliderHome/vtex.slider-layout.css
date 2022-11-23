@@ -15,7 +15,8 @@
   background-color: #fff;
 }
 .sliderTrackContainer--home__slider--products {
-  max-width: 1430px;
+  /* max-width: 1430px; */
+  width: 94%;
   margin: 0 auto;
 }
 
@@ -31,5 +32,37 @@
 }
 .sliderTrackContainer--home__slider--productos--recomendados {
   max-width: 1430px;
+  width: 94%;
   margin: 0 auto;
+}
+.caretIcon--home__slider--products {
+  display: none;
+}
+.sliderLeftArrow--home__slider--productos--recomendados {
+  margin: 0 4%;
+}
+.sliderRightArrow--home__slider--productos--recomendados {
+  margin: 0 4%;
+}
+.slide--home__slider--productos--recomendados-mobile {
+  background-color: #fff;
+  width: 9% !important;
+  padding: 12px;
+}
+.paginationDotsContainer--home__slider--productos--recomendados-mobile {
+  display: none;
+}
+.slide--home__slider--products-mobile {
+  background-color: #fff;
+  width: 9% !important;
+  padding: 12px;
+}
+.sliderRightArrow--home__slider--products-mobile {
+  display: none;
+}
+.sliderLeftArrow--home__slider--products-mobile {
+  display: none;
+}
+.sliderLayoutContainer--home__slider--products-mobile {
+  padding-bottom: 2.5rem;
 }

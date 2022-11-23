@@ -1,0 +1,85 @@
+{
+  "responsive-layout.mobile#productos-estrella--home": {
+    "children": ["flex-layout.row#home--collage-products-mobile"]
+  },
+  "flex-layout.row#home--collage-products-mobile": {
+    "title": "Collage Productos Estrella",
+    "children": ["flex-layout.col#home-col-container--collage-products-mobile"],
+    "props": {
+      "blockClass": "container--collage-productos-estrellas"
+    }
+  },
+  "flex-layout.col#home-col-container--collage-products-mobile": {
+    "children": [
+      "flex-layout.row#home--title-collage-products-mobile",
+      "flex-layout.row#home--collage-image-products-mobile"
+    ]
+  },
+  "flex-layout.row#home--collage-image-products-mobile": {
+    "children": [
+      "flex-layout.col#home-col-one--collage-products-mobile",
+      "flex-layout.col#home-col-two--collage-products-mobile"
+    ],
+    "props": {
+      "blockClass": "contianer--collage-img-products"
+    }
+  },
+  "flex-layout.row#home--title-collage-products-mobile": {
+    "title": "Titulo collage productos estrellas",
+    "children": ["rich-text#titulo-collage-products-mobile"]
+  },
+  "rich-text#titulo-collage-products-mobile": {
+    "props": {
+      "blockClass": "title-collage-productos-estrellas-mobile",
+      "text": "PRODUCTOS ESTRELLA"
+    }
+  },
+  "flex-layout.col#home-col-one--collage-products-mobile": {
+    "children": ["image#col-one--scooter-mobile"]
+  },
+  "image#col-one--scooter-mobile": {
+    "props": {
+      "blockClass": "images_estrella",
+      "src": "assets/img/productosEstrellas/scooter electrico.jpg"
+    }
+  },
+  "flex-layout.col#home-col-two--collage-products-mobile": {
+    "children": [
+      "flex-layout.row#row-one--collage-products-mobile",
+      "flex-layout.row#row-two--collage-products-mobile"
+    ],
+    "props": {
+      "blockClass": "imagenes-row-one--collage-products"
+    }
+  },
+  "flex-layout.row#row-one--collage-products-mobile": {
+    "children": [
+      "flex-layout.col#image--productos-estrellas-mobile",
+      "flex-layout.col#image--productos-estrellas-mobile"
+    ],
+    "props": {
+      "blockClass": "row_one-collage-products"
+    }
+  },
+  "flex-layout.col#image--productos-estrellas-mobile": {
+    "children": ["image#col-smart--band-mobile"],
+    "props": {
+      "blockClass": "col_one-collage-products"
+    }
+  },
+  "image#col-smart--band-mobile": {
+    "props": {
+      "blockClass": "images_estrella",
+      "src": "assets/img/productosEstrellas/miBand7.jpg"
+    }
+  },
+  "flex-layout.row#row-two--collage-products-mobile": {
+    "children": ["image#col-xiaomi--watch-mobile"]
+  },
+  "image#col-xiaomi--watch-mobile": {
+    "props": {
+      "blockClass": "images_estrella",
+      "src": "assets/img/productosEstrellas/xiaomiWatch.jpg"
+    }
+  }
+}

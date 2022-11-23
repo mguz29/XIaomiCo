@@ -1,4 +1,13 @@
 {
+  "responsive-layout.desktop#products--home": {
+    "children": [
+      "flex-layout.row#productos--home",
+      "flex-layout.row#productos--home-recomendados"
+    ]
+  },
+  // "responsive-layout.mobile#products--home": {
+  //   "children": ["flex-layout.row#productos--home"]
+  // },
   "flex-layout.row#productos--home": {
     "children": ["flex-layout.col#productos--estrellas"]
     // "props": {
@@ -79,6 +88,84 @@
         "timeout": 3000,
         "stopOnHover": true
       }
+    }
+  },
+  "flex-layout.row#productos--home-recomendados": {
+    "children": ["flex-layout.col#productos--recomendados"]
+    // "props": {
+    //   "verticalAlign": "top"
+    // }
+  },
+  "flex-layout.col#productos--recomendados": {
+    "children": ["list-context.product-list#productos-recomendados"]
+  },
+  "list-context.product-list#productos-recomendados": {
+    "title": "slider productos home",
+    "blocks": ["product-summary.shelf#recomendados"],
+    "children": [
+      "flex-layout.row#title-recomendados",
+      "flex-layout.row#slider-recomendados-para-ti"
+      // "flex-layout.row#title-recomendados",
+      // "flex-layout.row#slider-recomendados-para-ti"
+    ],
+    "props": {
+      "blockClass": "list-context--container-slider"
+    }
+  },
+  "product-summary.shelf#recomendados": {
+    "title": "summary products slider home",
+    "children": [
+      "product-summary-image#product-recomendado",
+      "product-summary-name#product-recomendado",
+      "product-summary-space",
+      "product-summary-price"
+    ]
+  },
+  "product-summary-image#product-recomendado": {
+    "props": {
+      "showBadge": true,
+      "height": 150
+    }
+  },
+  "product-summary-name#product-recomendado": {
+    "props": {
+      "blockClass": "product-summary--name"
+    }
+  },
+  "flex-layout.row#title-recomendados": {
+    "children": ["rich-text#title-productos--recomendados"]
+  },
+  "flex-layout.row#slider-recomendados-para-ti": {
+    "children": ["responsive-layout.desktop#productos-recomendados"],
+    "props": {
+      "blockClass": "slider-productos-estrellas"
+    }
+  },
+  "rich-text#title-productos--recomendados": {
+    "props": {
+      "blockClass": "title--slider-products",
+      "text": "RECOMENDADOS PARA TI"
+    }
+  },
+
+  "responsive-layout.desktop#productos-recomendados": {
+    "children": ["slider-layout#home__sliderProducts--recomendados"]
+  },
+
+  "slider-layout#home__sliderProducts--recomendados": {
+    "title": "Slider con hijos declaradors",
+    "props": {
+      "maxWidth": "1260px",
+      "margin": "auto",
+      "width": "100%",
+
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "infinite": true,
+      "blockClass": "home__slider--productos--recomendados"
     }
   }
   //

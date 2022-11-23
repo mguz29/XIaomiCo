@@ -5,9 +5,14 @@
       "responsive-layout.mobile",
       "flex-layout.row#home__section--ofertas",
       "flex-layout.row#home__section--banner",
-      "flex-layout.row#productos--home",
-      "flex-layout.row#productos--home-recomendados",
+      "responsive-layout.desktop#products--home",
+      "responsive-layout.mobile#products--home",
+      // "flex-layout.row#productos--home-recomendados",
+      // "flex-layout.row#home--collage-products",
+      "responsive-layout.desktop#productos-estrella--home",
+      "responsive-layout.mobile#productos-estrella--home",
       "flex-layout.row#home__section--bannerSecundario"
+      // "product-summary.shelf#demo1"
       // "responsive-layout.desktop#products",
       // "list-context.product-list#productlist_1"
       // "modal-trigger#home__modal--children",
@@ -15,7 +20,39 @@
       // "search-result-layout.customQuery#home__search"
     ]
   }
+  // "product-summary.shelf#demo1": {
+  //   "children": [
+  //     "product-summary-name",
+  //     "product-rating-inline",
+  //     "product-summary-space",
+  //     "product-summary-price",
+  //     "product-summary-buy-button"
+  //   ]
+  // },
+  // "list-context.product-list#demo1": {
+  //   "blocks": ["product-summary.shelf#demo1"],
+  //   "children": ["slider-layout#home__slider--children--header"]
+  // },
+  // "slider-layout#home__slider--children--header": {
+  //   "title": "Slider con hijos declaradors",
+  //   "props": {
+  //     "maxWidth": "1260px",
+  //     "margin": "auto",
+  //     "width": "100%",
 
+  //     "itemsPerPage": {
+  //       "desktop": 5,
+  //       "tablet": 1,
+  //       "mobile": 1
+  //     },
+  //     "infinite": true,
+  //     "blockClass": "home__slider",
+  //     "autoplay": {
+  //       "timeout": 4000,
+  //       "stopOnHover": true
+  //     }
+  //   }
+  // }
   // "search-result-layout.customQuery#home__search": {
   //   "props": {
   //     "querySchema": {
