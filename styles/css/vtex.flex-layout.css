@@ -137,3 +137,13 @@
 .flexRowContent--row_one-collage-products {
   display: flex;
 }
+.flexRow--container-Search--content {
+  /* width: 90%;
+  margin: 3% auto;
+  padding: 0 2%; */
+  max-width: 1226px;
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}

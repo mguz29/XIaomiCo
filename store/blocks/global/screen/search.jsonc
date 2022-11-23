@@ -1,6 +1,6 @@
 {
   "store.search": {
-    "blocks": ["search-result-layout"],
+    "blocks": ["search-result-layout#department"],
     "props": {
       "context": {
         "skusFilter": "FIRST_AVAILABLE",
@@ -26,7 +26,7 @@
       }
     }
   },
-  "store.search#brend": {
+  "store.search#brand": {
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
@@ -35,17 +35,7 @@
       }
     }
   },
-  // "product-summary.shelf": {
-  //   "children": []
-  // },
-  //
-  //
 
-  //  //
-  //
-  //
-  //
-  //
   "search-result-layout": {
     "blocks": [
       "search-result-layout.desktop",
@@ -67,6 +57,41 @@
   "rich-text#mobile": {
     "props": {
       "text": "# Hola prueba result mobile"
+    }
+  },
+  ///
+  ///
+  ///
+  ///
+  //
+  //
+  ///
+  ///
+  ///
+  ///
+
+  ///
+  ///
+  ///
+  ///
+  ////
+
+  /////////
+
+  ///
+  ///
+  //
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-image",
+      "product-rating-inline",
+      "product-summary-name",
+      //  "product-summary-space",
+      "product-summary-price"
+      // +      "product-summary-buy-button"
+    ],
+    "props": {
+      "blockClass": "Conatiner--summary"
     }
   }
 }

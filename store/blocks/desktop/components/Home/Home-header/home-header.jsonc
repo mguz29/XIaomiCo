@@ -77,7 +77,7 @@
     "children": ["menu#department__oneDesktop"]
   },
   "menu#department__oneDesktop": {
-    "children": ["flex-layout.col#productos--estrellas"]
+    "children": ["flex-layout.row#productos--home"]
   },
   //   "menu-item#category__one": {
   //     "props": {
