@@ -1,0 +1,71 @@
+{
+  //   "search-result-layout#mobile": {
+  //     "blocks": ["search-result-layout.mobile#global", "search-not-found-layout"]
+  //   },
+  //   "search-result-layout.mobile#global": {
+  //     "children": [
+  //       "flex-layout.row#globals",
+  //       "flex-layout.row#global__breadcrumb",
+  //       "flex-layout.row#global__results"
+  //     ],
+  //     "props": {
+  //       "blockClass": "continer--breadcrumb-search"
+  //     }
+  //   },
+  //   "flex-layout.row#globals": {
+  //     "children": ["rich-text#xd"],
+  //     "props": {
+  //       "blockClass": "flex-layout-rich--container"
+  //     }
+  //   },
+  //   "rich-text#xd": {
+  //     "props": {
+  //       "text": "# perro",
+  //       "blockClass": "rich-text#visibility-hidden"
+  //     }
+  //   },
+  //   "flex-layout.row#global__breadcrumb": {
+  //     "children": [
+  //       "flex-layout.col#global__breadcrumb",
+  //       "flex-layout.col#global__order--by"
+  //     ],
+  //     "props": {
+  //       "blockClass": "container--filters"
+  //     }
+  //   },
+  //   "flex-layout.col#global__breadcrumb": {
+  //     "children": ["breadcrumb.search"]
+  //   },
+  //   "flex-layout.col#global__order--by": {
+  //     "children": ["total-products.v2", "order-by.v2"],
+  //     "props": {
+  //       "blockClass": "filters--search"
+  //     }
+  //   },
+  //   "flex-layout.row#global__results": {
+  //     "title": "global Results",
+  //     "children": ["search-content#global"],
+  //     "props": { "blockClass": "container-Search--content" }
+  //   },
+  //   "search-content#global": {
+  //     "blocks": ["gallery", "not-found"],
+  //     "props": { "blockClass": "Search--content" }
+  //   },
+  //   "gallery": {
+  //     "props": {
+  //       "layouts": [
+  //         {
+  //           "name": "general-grid",
+  //           "component": "GeneralGrid",
+  //           "itemsPerRow": {
+  //             "desktop": 4,
+  //             "mobile": 1,
+  //             "tablet": 2
+  //           }
+  //         }
+  //       ],
+  //       "GeneralGrid": "product-summary.shelf",
+  //       "blockClass": "asdasd"
+  //     }
+  //   }
+}

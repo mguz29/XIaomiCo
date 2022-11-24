@@ -178,11 +178,18 @@
   },
 
   "search-bar": {
+    "blocks": ["autocomplete-result-list.v2", "search-suggestions"],
     "props": {
       "maxWidth": "300px",
       "placeholder": "Buscar Productos"
     }
   }
+  // "autocomplete-result-list.v2": {
+  //   "props": {
+  //     "maxSuggestedProducts": 3,
+  //     "productLayout": "VERTICAL"
+  //   }
+  // }
 
   // "header": {
   //   "blocks": ["header-layout.desktop", "header-layout.mobile"]

@@ -307,3 +307,6 @@
   white-space: normal;
   justify-content: center;
 }
+.container--footer-credits {
+  padding-bottom: 10px;
+}
