@@ -44,3 +44,24 @@
   text-align: center;
   color: #1c1c1c;
 }
+.spacer {
+  display: none;
+}
+.installmentContainer--HomeDatatricks {
+  display: none;
+}
+.listPriceContainer--HomeDatatricks {
+  display: none;
+}
+.sellingPrice--HomeDatatricks {
+  font-size: 15.5px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ff6700;
+}
+.price_sellingPriceLabel--HomeDatatricks {
+  display: none;
+}

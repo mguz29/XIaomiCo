@@ -35,8 +35,7 @@
     "children": [
       "product-summary-image#product",
       "product-summary-name",
-      "product-summary-space",
-      "product-summary-price"
+      "product-summary-price#product-desktop"
     ]
   },
   "product-summary-image#product": {
@@ -48,6 +47,11 @@
   "product-summary-name": {
     "props": {
       "blockClass": "product-summary--name"
+    }
+  },
+  "product-summary-price#product-desktop": {
+    "props": {
+      "blockClass": "HomeDatatricks"
     }
   },
   "flex-layout.row#title-productos--estrellas": {
@@ -117,8 +121,7 @@
     "children": [
       "product-summary-image#product-recomendado",
       "product-summary-name#product-recomendado",
-      "product-summary-space",
-      "product-summary-price"
+      "product-summary-price#product-desktop"
     ]
   },
   "product-summary-image#product-recomendado": {
