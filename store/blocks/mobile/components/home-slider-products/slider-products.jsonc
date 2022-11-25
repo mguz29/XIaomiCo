@@ -32,7 +32,6 @@
     "children": [
       "product-summary-image#product-mobile",
       "product-summary-name#mobile",
-      "product-summary-space",
       "product-summary-price"
     ]
   },
@@ -102,8 +101,6 @@
     "children": [
       "flex-layout.row#title-recomendados-mobile",
       "flex-layout.row#slider-recomendados-para-ti-mobile"
-      // "flex-layout.row#title-recomendados",
-      // "flex-layout.row#slider-recomendados-para-ti"
     ],
     "props": {
       "blockClass": "list-context--container-slider"
@@ -114,7 +111,6 @@
     "children": [
       "product-summary-image#product-recomendado-mobile",
       "product-summary-name#product-recomendado-mobile",
-      "product-summary-space",
       "product-summary-price"
     ]
   },
@@ -165,28 +161,5 @@
       "blockClass": "home__slider--productos--recomendados-mobile"
     }
   }
-  //
-  //
-  /////////
-  ////////
-  ///////////
-  //////////
-  ////////
-  /////////
 
-  // "flex-layout.row#title-recomendados": {
-  //   "children": ["rich-text#title-productos-recomendados"]
-  // },
-  // "rich-text#title-productos-recomendados": {
-  //   "props": {
-  //     "blockClass": "title--slider-products",
-  //     "text": "RECOMENDADOS PARA TI"
-  //   }
-  // },
-  // "flex-layout.row#slider-recomendados-para-ti": {
-  //   "children": ["responsive-layout.desktop#products"],
-  //   "props": {
-  //     "blockClass": "slider-productos-estrellas"
-  //   }
-  // }
 }

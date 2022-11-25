@@ -178,7 +178,7 @@
   },
 
   "search-bar": {
-    "blocks": ["autocomplete-result-list.v2", "search-suggestions"],
+    // "blocks": ["autocomplete-result-list.v2", "search-suggestions"],
     "props": {
       "maxWidth": "300px",
       "placeholder": "Buscar Productos"

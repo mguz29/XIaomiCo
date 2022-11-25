@@ -1,0 +1,91 @@
+{
+  "store.custom#politcas": {
+    "blocks": [
+      "flex-layout.row#politicas__seccion-uno",
+      "flex-layout.row#politicas__seccion-dos",
+      "flex-layout.row#politicas__seccion-tres"
+    ],
+    "props": {
+      "blockClass": "container-component"
+    }
+  },
+  "flex-layout.row#politicas__seccion-uno": {
+    "children": ["flex-layout.col#politicas--seccion-uno"],
+    "props": {
+      "blockClass": "container-politicas-seccion-one"
+    }
+  },
+  "flex-layout.row#politicas__seccion-dos": {
+    "children": ["flex-layout.col#politicas--seccion-dos"]
+  },
+  "flex-layout.row#politicas__seccion-tres": {
+    "children": ["flex-layout.col#politicas--seccion-tres"]
+  },
+  "flex-layout.col#politicas--seccion-uno": {
+    "children": ["rich-text#section__one--title"]
+  },
+  "flex-layout.col#politicas--seccion-dos": {
+    "children": ["rich-text#section__two--subttitle"]
+  },
+  "flex-layout.col#politicas--seccion-tres": {
+    "children": [
+      "rich-text#section__two--info-parrafo-uno",
+      "rich-text#section__two--info-politicas",
+      "rich-text#section__two--info-cambio-producto",
+      "rich-text#section__two--info-devoluciones",
+      "rich-text#section__two--info-tienda",
+      "rich-text#section__two--info-solicitud"
+    ],
+    "props": {
+      "blockClass": "container-politicas-seccion-tres"
+    }
+  },
+  "rich-text#section__one--title": {
+    "props": {
+      "blockClass": "Text--banner__section-one",
+      "text": "### POLÍTICA DE DEVOLUCIONES"
+    }
+  },
+  "rich-text#section__two--subttitle": {
+    "props": {
+      "blockClass": "subtitulo1--section-dos",
+      "text": "#### Política de Devoluciones"
+    }
+  },
+  "rich-text#section__two--info-parrafo-uno": {
+    "props": {
+      "blockClass": "texto1Politicas",
+      "text": "En Xiaomi Oficial queremos que tu experiencia siempre sea la mejor. Por eso te ofrecemos una política de cambios y devoluciones clara y sencilla"
+    }
+  },
+  "rich-text#section__two--info-politicas": {
+    "props": {
+      "blockClass": "texto1Politicas",
+      "text": "**¿Qué productos NO son elegibles para cambios o devoluciones?.** \n Cualquier producto que haya sido adquirido con descuento. Aquellos productos que no cuenten con su caja, aditamos, componentes, manuales y etiquetas originales. Cualquier producto que haya sido visiblemente usado no será válido."
+    }
+  },
+  "rich-text#section__two--info-cambio-producto": {
+    "props": {
+      "blockClass": "texto1Politicas",
+      "text": "**¿Cuánto tiempo tengo para cambiar o devolver un producto?** \n En cualquiera de los casos tienes 24 horas después de haber recibido tu orden para comunicarte con nosotros a hola@xiaomi-store.co y así empezar el proceso de cambio o devolución."
+    }
+  },
+  "rich-text#section__two--info-devoluciones": {
+    "props": {
+      "blockClass": "texto1Politicas",
+      "text": "**¿Los cambios o devoluciones tienen algún costo?** \nNo. Cualquier costo de envío para el cambio o devolución de algún producto corre enteramente por nuestra cuenta."
+    }
+  },
+  "rich-text#section__two--info-tienda": {
+    "props": {
+      "blockClass": "texto1Politicas",
+      "text": "**¿Puedo realizar el cambio o devolución en alguna tienda Xiaomi?** \n No, todas las compras realizadas en Xiaomi Oficial solo pueden ser resueltas escribiendo a hola@xiaomi-store.co "
+    }
+  },
+  "rich-text#section__two--info-solicitud": {
+    "props": {
+      "text": "**¿Cuál es el proceso para solicitar un cambio o devolución?** \n Es necesario comunicarte con nuestro servicio de atención a clientes. Puedes hacerlo de lunes a viernes de 08:00 a 18:00, Sábados de 08:00 a 16:00 vía correo electrónico: hola@xiaomi-store.co o soporte telefónico: 5713812897",
+      "blockClass": "texto1Politicas"
+    }
+  }
+}
