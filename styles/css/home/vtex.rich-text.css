@@ -335,3 +335,27 @@
   font-size: 14px;
   font-weight: 100 !important;
 }
+.paragraph--pdp--benefits::before {
+  content: "";
+  background-image: url("https://xiaomicolombia.vtexassets.com/arquivos/benefits-pdp.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 22px;
+  margin: 6px 0;
+  position: absolute;
+  height: 22px;
+  left: 0;
+}
+.paragraph--pdp--benefits {
+  position: relative;
+  margin: 5px 0;
+  padding-left: 28px;
+  font-size: 14px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.46;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1c1c1c;
+}

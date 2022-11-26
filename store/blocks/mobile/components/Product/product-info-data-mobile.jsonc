@@ -1,0 +1,125 @@
+{
+  "flex-layout.row#product__info-mobile": {
+    "title": "Informacion General de PDP",
+    "children": [
+      "flex-layout.col#product__info--image",
+      "flex-layout.col#product__info--data"
+    ],
+    "props": {
+      "blockClass": "Contenedor-info--general-mobile"
+    }
+  },
+  "flex-layout.col#product__info--image": {
+    "title": "Imagenes del Producto",
+    "children": ["product-images#product__info--image"],
+    "props": {
+      "width": "60%"
+    }
+  },
+  "product-images#product__info--image": {
+    "title": "Imagenes",
+    "props": {
+      "displayThumbnailsArrows": false,
+      "aspectRatio": "4:3"
+    }
+  },
+  "flex-layout.col#product__info--data": {
+    "title": "Data de Producto",
+    "children": [
+      "flex-layout.row#product-name--pdp",
+      "flex-layout.row#product-score--pdp",
+      "flex-layout.row#product-politicas-envio",
+      "flex-layout.row#product-sku-selector",
+      "flex-layout.row#product-quantity-price",
+      "flex-layout.row#product-buy-bottom"
+    ],
+    "props": {
+      "blockClass": "contenedor-info--data-mobile"
+    }
+  },
+  "flex-layout.row#product-name--pdp": {
+    "title": "Nombre del Producto",
+    "children": ["vtex.store-components:product-name"],
+    "props": {
+      "blockClass": "product-name"
+    }
+  },
+  "flex-layout.row#product-score--pdp": {
+    "title": "Precio y Rating",
+    "children": ["product-price", "product-rating-summary"],
+    "props": {
+      "blockClass": "product-precio--rating-mobile"
+    }
+  },
+  "flex-layout.row#product-politicas-envio": {
+    "title": "Contenedor politicas producto",
+    "children": [
+      "rich-text#envios-gratis",
+      "rich-text#cambios-devoluciones",
+      "rich-text#garantias"
+    ],
+    "props": {
+      "blockClass": "Container-politicas-producto",
+      "colSizing": "auto"
+    }
+  },
+  "rich-text#envios-gratis": {
+    "title": "Texto envio gratis",
+    "props": {
+      "blockClass": "pdp--benefits",
+      "text": "Envío gratis arriba de $400,000"
+    }
+  },
+  "rich-text#cambios-devoluciones": {
+    "title": "texto cambios y devoluciones pdp",
+    "props": {
+      "blockClass": "pdp--benefits",
+      "text": "Cambios y devoluciones"
+    }
+  },
+  "rich-text#garantias": {
+    "title": "texto Garantias pdp",
+    "props": {
+      "blockClass": "pdp--benefits",
+      "text": "Tiene garantía"
+    }
+  },
+  "flex-layout.row#product-sku-selector": {
+    "title": "Sku selector pdp",
+    "children": ["sku-selector"]
+  },
+  "flex-layout.row#product-quantity-price": {
+    "title": "contenedor cantidad y precios",
+    "children": [
+      "flex-layout.col#product-quantity",
+      "flex-layout.col#product-price"
+    ],
+    "props": {
+      "blockClass": "totals-pdp"
+    }
+  },
+  "flex-layout.col#product-quantity": {
+    "title": "Product Quantity",
+    "children": ["product-quantity"]
+  },
+  "flex-layout.col#product-price": {
+    "title": "Precio Producto",
+    "children": ["product-price"],
+    "props": {
+      "blockClass": "price-pdp"
+    }
+  },
+  "flex-layout.row#product-buy-bottom": {
+    "title": "Boton de Compra",
+    "children": ["buy-button#product-pdp"],
+    "props": {
+      "blockClass": "Container-bottom"
+    }
+  },
+  "buy-button#product-pdp": {
+    "props": {
+      "blockClass": "boton-compra",
+      "large": true
+    }
+  }
+}
