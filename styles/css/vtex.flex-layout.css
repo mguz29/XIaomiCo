@@ -187,7 +187,7 @@
   width: 90%;
 }
 .flexCol--contenedor-info--data {
-  padding-left: 50px;
+  padding-left: 30px;
 }
 .flexRowContent--product-precio--rating {
   align-items: center;
@@ -281,7 +281,7 @@
   justify-content: flex-end;
 }
 .flexRowContent--Contenedor-info--general-mobile {
-  padding-top: 50px;
+  padding-top: 10px;
 }
 .flexRowContent--product-precio--rating-mobile
   :global(.vtex-reviews-and-ratings-3-x-summaryContainer) {
@@ -296,5 +296,45 @@
 
 .flexRowContent--product-precio--rating.mobile
   :global(.vtex-reviews-and-ratings-3-x-summaryTotalReviews) {
+  color: #ff6900;
+}
+.flexRowContent--product-precio--rating-mobile
+  :global(.vtex-store-components-3-x-price_sellingPrice) {
+  font-size: 19px !important;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ff6900;
+}
+.flexRowContent--product-name-mobile
+  :global(.vtex-store-components-3-x-productNameContainer) {
+  padding-bottom: 30px;
+}
+.flexRowContent--product-precio--rating-mobile
+  :global(.vtex-reviews-and-ratings-3-x-summaryTotalReviews) {
+  color: #ff6900;
+}
+.flexRowContent--container-info-contact--mobile {
+  display: flex;
+  flex-direction: column;
+}
+.flexRow--Container-slider-product {
+  width: 100%;
+  max-width: 1226px !important;
+  margin: 0 auto;
+  display: flex;
+}
+.flexCol--contenedor-menu-mas {
+  display: flex;
+  align-items: center;
+}
+.flexColChild--contenedor-menu-mas {
+  display: flex;
+  align-items: center;
+}
+.flexRowContent--product-precio--rating-mobile
+  :global(.vtex-reviews-and-ratings-3-x-star--filled) {
   color: #ff6900;
 }

@@ -239,3 +239,11 @@
 .price_sellingPriceLabel {
   display: none;
 }
+.specificationItemProperty {
+  font-size: 19px;
+  text-align: left;
+  color: #1c1c1c;
+}
+.logoLink--logoHeader {
+  margin-left: 4%;
+}

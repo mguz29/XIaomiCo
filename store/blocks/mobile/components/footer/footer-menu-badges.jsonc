@@ -1,0 +1,73 @@
+{
+  "flex-layout.row#footer__footer-badges--mobile": {
+    "children": ["flex-layout.row#footer__badges--mobile"]
+  },
+  "flex-layout.row#footer__badges--mobile": {
+    "children": [
+      "flex-layout.col#footer__badges--changes--mobile",
+      "flex-layout.col#footer__badges--store--mobile",
+      "flex-layout.col#footer__badges--buy--mobile"
+    ],
+    "props": {
+      "blockClass": "footer--badges"
+    }
+  },
+  "flex-layout.col#footer__badges--changes--mobile": {
+    "children": ["info-card#changes--mobile"],
+    "props": {
+      "blockClass": "badges--changes-mobile"
+    }
+  },
+  "info-card#changes--mobile": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "callToActionMode": "none",
+      // "callToActionText": "DISCOVER",
+      // "callToActionUrl": "/sale/d",
+      "textPosition": "right",
+      "imageUrl": "assets/img/devoluciones2_footer.png",
+      "headline": "Cambios y devoluciones",
+      "subhead": "Cambios o devoluciones sin costo.",
+      "blockClass": "info-card-example-mobile",
+      "textAlignment": "center"
+    }
+  },
+  "flex-layout.col#footer__badges--store--mobile": {
+    "children": ["info-card#store--mobile"]
+  },
+  "info-card#store--mobile": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "callToActionMode": "none",
+      // "callToActionText": "DISCOVER",
+      // "callToActionUrl": "/sale/d",
+      "textPosition": "right",
+      "imageUrl": "assets/img/LogoXiaominfocard.webp",
+      "headline": "La tienda en Colombia",
+      "subhead": "Tecnología todo el día, todos los días.",
+      "blockClass": "info-card-example-mobile",
+      "textAlignment": "center"
+    }
+  },
+
+  "flex-layout.col#footer__badges--buy--mobile": {
+    "children": ["info-card#buy--mobile"]
+  },
+  "info-card#buy--mobile": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "callToActionMode": "none",
+      // "callToActionText": "DISCOVER",
+      // "callToActionUrl": "/sale/d",
+      "textPosition": "right",
+      "imageUrl": "assets/img/logoCompraSegura.png",
+      "headline": "Compra segura siempre",
+      "subhead": "Tus datos siempre estarán protegidos.",
+      "blockClass": "info-card-example-mobile",
+      "textAlignment": "center"
+    }
+  }
+}

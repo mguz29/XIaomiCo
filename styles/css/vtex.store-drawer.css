@@ -23,3 +23,21 @@
   pointer-events: auto;
   transform: translate3d(0%, 0px, 0px);
 }
+.drawer--search-drawer-mobile {
+  top: 40%;
+  height: 60%;
+}
+.childrenContainer--search-drawer-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.drawerContent--search-drawer-mobile {
+  flex-flow: column-reverse nowrap;
+  display: flex;
+  height: calc(100% - 70px);
+}
+.closeIcon--search-drawer-mobile {
+  visibility: hidden;
+}

@@ -23,3 +23,24 @@
   max-width: 342px;
   padding-top: 5px;
 }
+.newsletterForm--newsletter--form--mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nameInputContainer--newsletter--input-name--desktop {
+  width: auto;
+}
+.emailInputContainer--input-email--neswletter-mobile::before {
+  content: "SIGAMOS EN CONTACTO";
+  font-size: 16px;
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+  padding-bottom: 5px;
+}
+.emailInputContainer--input-email--neswletter-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

@@ -27,9 +27,9 @@
   justify-content: flex-start;
 }
 
-.element--Conatiner--summary :global(.vtex-reviews-and-ratings-3-x-stars) {
+/* .element--Conatiner--summary :global(.vtex-reviews-and-ratings-3-x-stars) {
   color: #ff6709 !important;
-}
+} */
 .element--Conatiner--summary
   :global(.vtex-store-components-3-x-installmentsPrice) {
   display: none;
@@ -63,5 +63,29 @@
   color: #ff6700;
 }
 .price_sellingPriceLabel--HomeDatatricks {
+  display: none;
+}
+.sellingPrice--header--product-price {
+  font-size: 15.5px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ff6700;
+}
+.installmentContainer--header--product-price {
+  display: none;
+}
+.listPriceContainer--header--product-price {
+  display: none;
+}
+.sellingPriceLabel--header--product-price {
+  display: none;
+}
+.nameContainer--name-product-menu-mobile {
+  padding: 0 0;
+}
+.installmentContainer--header--product-price-mobile {
   display: none;
 }
