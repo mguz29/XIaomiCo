@@ -1,0 +1,19 @@
+{
+  "store.product": {
+    "children": [
+      "responsive-layout.desktop#product-detail-page",
+      "responsive-layout.mobile#product-detail-page"
+    ]
+  },
+  "responsive-layout.desktop#product-detail-page": {
+    "children": [
+      "flex-layout.row#departments",
+      "flex-layout.row#product__breadcrumb",
+      "flex-layout.row#product__info",
+      "flex-layout.row#product__descriptions",
+      "flex-layout.row#productos--home-recomendados",
+      "product-questions-and-answers",
+      "product-reviews"
+    ]
+  }
+}

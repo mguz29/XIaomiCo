@@ -18,7 +18,7 @@
       "blockClass": "logoHeader",
       "title": "Logo",
       "height": 50,
-      // "href": "https://xiaomicolombia.vtexassets.com/assets/vtex.file-manager-graphql/images/5a9c9d9c-4a28-4fd8-abd5-43234f09fde9___af8a5e6f0cb5447522c446c00adc0197.png",
+      "href": "/",
       "url": "https://xiaomicolombia.vtexassets.com/assets/vtex.file-manager-graphql/images/5a9c9d9c-4a28-4fd8-abd5-43234f09fde9___af8a5e6f0cb5447522c446c00adc0197.png",
       "width": 50,
       "mobileWidth": 30,
@@ -56,7 +56,10 @@
       "menu-item#department__dfive",
       "menu-item#department__dsix",
       "menu-item#department__dseven"
-    ]
+    ],
+    "props": {
+      "blockClass": "Menu--header-desktop"
+    }
   },
   "menu-item#department__oneDesktop": {
     "props": {
@@ -74,10 +77,16 @@
     "blocks": ["submenu#category__oneDesktop"]
   },
   "submenu#category__oneDesktop": {
-    "children": ["menu#department__oneDesktop"]
+    "children": ["menu#department__oneDesktop"],
+    "props": {
+      "blockClass": "submenu-header"
+    }
   },
   "menu#department__oneDesktop": {
-    "children": ["flex-layout.row#productos--home"]
+    "children": ["flex-layout.row#product-menu-slider"],
+    "props": {
+      "blockClass": "department-submenu-hijo"
+    }
   },
   //   "menu-item#category__one": {
   //     "props": {
@@ -104,7 +113,8 @@
         "tagTitle": "google title",
         "text": "Hogar conectado"
       }
-    }
+    },
+    "blocks": ["submenu#category__oneDesktop"]
   },
   "menu-item#department__dthree": {
     "props": {
@@ -118,7 +128,8 @@
         "tagTitle": "google title",
         "text": "Movilidad"
       }
-    }
+    },
+    "blocks": ["submenu#category__oneDesktop"]
   },
   "menu-item#department__dfour": {
     "props": {
@@ -132,7 +143,8 @@
         "tagTitle": "google title",
         "text": "Fitness & Lifestyle"
       }
-    }
+    },
+    "blocks": ["submenu#category__oneDesktop"]
   },
   "menu-item#department__dfive": {
     "props": {
@@ -146,7 +158,8 @@
         "tagTitle": "google title",
         "text": "Gadgest y juguetes"
       }
-    }
+    },
+    "blocks": ["submenu#category__oneDesktop"]
   },
   "menu-item#department__dsix": {
     "props": {
@@ -160,7 +173,8 @@
         "tagTitle": "google title",
         "text": "Audio"
       }
-    }
+    },
+    "blocks": ["submenu#category__oneDesktop"]
   },
   "menu-item#department__dseven": {
     "props": {
@@ -174,7 +188,8 @@
         "tagTitle": "google title",
         "text": "Ver Todo"
       }
-    }
+    },
+    "blocks": ["submenu#category__oneDesktop"]
   },
 
   "search-bar": {
@@ -189,84 +204,5 @@
   //     "maxSuggestedProducts": 3,
   //     "productLayout": "VERTICAL"
   //   }
-  // }
-
-  // "header": {
-  //   "blocks": ["header-layout.desktop", "header-layout.mobile"]
-  // },
-  // "header.full": {
-  //   "blocks": ["header-layout.desktop", "header-layout.mobile"]
-  // },
-  // "header-layout.desktop": {
-  //   "children": ["sticky-layout#desktop"]
-  // },
-  // "sticky-layout#desktop": {
-  //   "props": {
-  //     "blockClass": "sticky-header"
-  //   },
-  //   "children": ["flex-layout.row#desktop"]
-  // },
-  // "flex-layout.row#desktop": {
-  //   "props": {
-  //     "horizontalAlign": "center",
-  //     "verticalAlign": "center",
-  //     "preventHorizontalStretch": true,
-  //     "preventVerticalStretch": true,
-  //     "fullWidth": true
-  //   },
-  //   "children": [
-  //     "flex-layout.col#logo-desktop",
-  //     "flex-layout.col#spacer",
-  //     "search-bar",
-  //     "locale-switcher",
-  //     "login",
-  //     "minicart.v2"
-  //   ]
-  // },
-  // "flex-layout.col#spacer": {
-  //   "props": {
-  //     "width": "grow"
-  //   }
-  // },
-  // "flex-layout.col#logo-desktop": {
-  //   "props": {
-  //     "verticalAlign": "middle"
-  //   },
-  //   "children": ["logo"]
-  // },
-  // "logo": {
-  //   "props": {
-  //     "title": "Logo",
-  //     "height": 50,
-  //     "href": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Xiaomi_logo_%282021-%29.svg/2048px-Xiaomi_logo_%282021-%29.svg.png",
-  //     "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Xiaomi_logo_%282021-%29.svg/2048px-Xiaomi_logo_%282021-%29.svg.png",
-  //     "width": 50,
-  //     "mobileWidth": 30,
-  //     "mobileHeight": 30
-  //   }
-  // },
-  // "header-layout.mobile": {
-  //   "children": ["sticky-layout#mobile"]
-  // },
-  // "sticky-layout#mobile": {
-  //   "children": ["flex-layout.row#mobile"]
-  // },
-  // "flex-layout.row#mobile": {
-  //   "children": [
-  //     "drawer",
-  //     "logo",
-  //     "flex-layout.col#spacer",
-  //     "login",
-  //     "minicart.v2"
-  //   ],
-  //   "props": {
-  //     "blockClass": "main-header-mobile",
-  //     "preventHorizontalStretch": true,
-  //     "preserveLayoutOnMobile": true,
-  //     "fullWidth": true
-  //   }
-  // },
-  // "drawer": {
-  //   "children": []
   // }
 }

@@ -1,6 +1,7 @@
 {
   "store.home": {
     "blocks": [
+      "whatsapp-button",
       "responsive-layout.desktop",
       "responsive-layout.mobile",
       "flex-layout.row#home__section--ofertas",
@@ -12,80 +13,13 @@
       "responsive-layout.desktop#productos-estrella--home",
       "responsive-layout.mobile#productos-estrella--home",
       "flex-layout.row#home__section--bannerSecundario"
-      // "product-summary.shelf#demo1"
-      // "responsive-layout.desktop#products",
-      // "list-context.product-list#productlist_1"
-      // "modal-trigger#home__modal--children",
-      // "rich-text#home__section--tittle",
-      // "search-result-layout.customQuery#home__search"
     ]
+  },
+  "whatsapp-button": {
+    "props": {
+      "logo": "logo-de-lo-que-sea.png",
+      "phone": "3223313796",
+      "message": "hol apeeroo"
+    }
   }
-  // "product-summary.shelf#demo1": {
-  //   "children": [
-  //     "product-summary-name",
-  //     "product-rating-inline",
-  //     "product-summary-space",
-  //     "product-summary-price",
-  //     "product-summary-buy-button"
-  //   ]
-  // },
-  // "list-context.product-list#demo1": {
-  //   "blocks": ["product-summary.shelf#demo1"],
-  //   "children": ["slider-layout#home__slider--children--header"]
-  // },
-  // "slider-layout#home__slider--children--header": {
-  //   "title": "Slider con hijos declaradors",
-  //   "props": {
-  //     "maxWidth": "1260px",
-  //     "margin": "auto",
-  //     "width": "100%",
-
-  //     "itemsPerPage": {
-  //       "desktop": 5,
-  //       "tablet": 1,
-  //       "mobile": 1
-  //     },
-  //     "infinite": true,
-  //     "blockClass": "home__slider",
-  //     "autoplay": {
-  //       "timeout": 4000,
-  //       "stopOnHover": true
-  //     }
-  //   }
-  // }
-  // "search-result-layout.customQuery#home__search": {
-  //   "props": {
-  //     "querySchema": {
-  //       "skusFilter": "ALL",
-  //       "simulationBehavior": "skip"
-  //     }
-  //   },
-  //   "blocks": [
-  //     "search-result-layout.desktop#home__search--desktop",
-  //     "search-result-layout.mobile#home__search--mobile"
-  //   ]
-  // },
-  // "search-result-layout.desktop#home__search--desktop": {
-  //   "children": ["rich-text#prueba"]
-  // },
-  // "rich-text#prueba": {
-  //   "props": {
-  //     "text": "este texto es de prueba Desktop"
-  //   }
-  // },
-  // "search-result-layout.mobile#home__search--mobile": {
-  //   "children": ["flex-layout.row#home__results"]
-  // },
-  // "flex-layout.row#home__results": {
-  //   "children": ["flex-layout.col#home__results--search"]
-  // },
-  // "flex-layout.col#home__results--search": {
-  //   "children": ["search-content#home__results--search"]
-  // },
-  // "search-content#home__results--search": {
-  //   "blocks": ["gallery", "not-found"]
-  // },
-  // "gallery": {
-  //   "blocks": ["product-summary.shelf"]
-  // }
 }

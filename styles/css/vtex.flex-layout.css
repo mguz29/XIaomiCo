@@ -176,3 +176,165 @@
   margin-right: auto;
   color: #1c1c1c;
 }
+.flexRow--Contenedor-info--general {
+  margin: 0 auto;
+  max-width: 1400px;
+  width: 90%;
+}
+.flexRow--Contenedor-miga-pan {
+  margin: 0 auto;
+  max-width: 1400px;
+  width: 90%;
+}
+.flexCol--contenedor-info--data {
+  padding-left: 30px;
+}
+.flexRowContent--product-precio--rating {
+  align-items: center;
+}
+.flexRowContent--product-precio--rating
+  :global(.vtex-store-components-3-x-price_sellingPrice) {
+  font-size: 19px !important;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ff6900;
+}
+.flexRowContent--product-name :global(.vtex-store-components-3-x-productBrand) {
+  font-size: 45px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  /* line-height: 0.9; */
+  letter-spacing: normal;
+  text-align: left;
+  color: #1c1c1c important!;
+  /* font-size: 48px; */
+  /* line-height: 17px; */
+  color: #1c1c1c;
+}
+.flexRowContent--product-precio--rating
+  :global(.vtex-reviews-and-ratings-3-x-star--empty) {
+  color: #ff6900;
+}
+
+.flexRowContent--product-precio--rating
+  :global(.vtex-reviews-and-ratings-3-x-summaryTotalReviews) {
+  color: #ff6900;
+}
+.flexColChild--contenedor-info--data {
+  height: min-content !important;
+}
+.flexRow--product-precio--rating {
+  padding: 20px 0;
+}
+.flexRowContent--Container-politicas-producto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+  border-top: 1px solid #b0b0b0;
+  border-bottom: 1px solid #b0b0b0;
+  padding: 15px 0;
+  margin: 0;
+}
+.flexRowContent--totals-pdp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flexColChild--price-pdp
+  :global(.vtex-store-components-3-x-price_sellingPriceContainer) {
+  font-size: 37px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #ff6900;
+}
+.flexRow--Container-bottom {
+  margin: 20px 0;
+}
+.flexRowContent--Container-bottom :global(.vtex-button) {
+  background-color: #f66602;
+  border-color: #f66602;
+}
+.flexRow--Contenedor-info--general-description {
+  margin: 40px auto;
+  max-width: 1400px;
+  width: 90%;
+}
+.flexCol--price-pdp
+  :global(.vtex-store-components-3-x-price_listPriceContainer) {
+  display: flex;
+  font-size: 23px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: rgba(66, 66, 66, 0.5);
+  text-decoration: line-through;
+  justify-content: flex-end;
+}
+.flexRowContent--Contenedor-info--general-mobile {
+  padding-top: 10px;
+}
+.flexRowContent--product-precio--rating-mobile
+  :global(.vtex-reviews-and-ratings-3-x-summaryContainer) {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.flexRowContent--product-precio--rating-mobile
+  :global(.vtex-reviews-and-ratings-3-x-star--empty) {
+  color: #ff6900;
+}
+
+.flexRowContent--product-precio--rating.mobile
+  :global(.vtex-reviews-and-ratings-3-x-summaryTotalReviews) {
+  color: #ff6900;
+}
+.flexRowContent--product-precio--rating-mobile
+  :global(.vtex-store-components-3-x-price_sellingPrice) {
+  font-size: 19px !important;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ff6900;
+}
+.flexRowContent--product-name-mobile
+  :global(.vtex-store-components-3-x-productNameContainer) {
+  padding-bottom: 30px;
+}
+.flexRowContent--product-precio--rating-mobile
+  :global(.vtex-reviews-and-ratings-3-x-summaryTotalReviews) {
+  color: #ff6900;
+}
+.flexRowContent--container-info-contact--mobile {
+  display: flex;
+  flex-direction: column;
+}
+.flexRow--Container-slider-product {
+  width: 100%;
+  max-width: 1226px !important;
+  margin: 0 auto;
+  display: flex;
+}
+.flexCol--contenedor-menu-mas {
+  display: flex;
+  align-items: center;
+}
+.flexColChild--contenedor-menu-mas {
+  display: flex;
+  align-items: center;
+}
+.flexRowContent--product-precio--rating-mobile
+  :global(.vtex-reviews-and-ratings-3-x-star--filled) {
+  color: #ff6900;
+}

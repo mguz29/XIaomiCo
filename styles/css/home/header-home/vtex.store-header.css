@@ -13,12 +13,21 @@
 }
 
 .headerRowBackground--row1--logo {
-  position: absolute;
+  /* position: absolute;
   z-index: 999;
   padding-top: 15px;
   width: 90%;
   background-color: transparent;
-  margin-left: 90px;
+  margin-left: 90px; */
+  padding: 0 25px !important;
+  width: 100%;
+  z-index: 9;
+  background-color: transparent !important;
+  margin: 0 auto -88px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 50px !important;
 }
 
 .headerRowContainer--header__drawerContainer--bottom
@@ -110,4 +119,9 @@
 .headerRowBackground--header-layout--containert
   :global(.vtex-minicart-2-x-cartIcon) {
   display: none;
+}
+.headerRow--row1--logo {
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 90%;
 }

@@ -67,3 +67,25 @@
   padding-bottom: 2.5rem;
 }
 
+.sliderLeftArrow--header__slider--products {
+  display: none;
+}
+.sliderRightArrow--header__slider--products {
+  display: none;
+}
+.paginationDotsContainer--header__slider--products {
+  display: none;
+}
+.paginationDotsContainer--header__slider--products-mobile {
+  display: none;
+}
+.slide--header__slider--products-mobile {
+  width: 5% !important;
+}
+/* .sliderTrack--header__slider--products-mobile {
+  width: 300% !important;
+} */
+.slide--home__slider--productos--recomendados-mobile
+  :global(.vtex-product-summary-2-x-price_installmentContainer) {
+  display: none;
+}

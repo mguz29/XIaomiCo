@@ -84,3 +84,36 @@
   text-align: left;
   color: #a8a8a8;
 }
+.submenuContainer--submenu-header {
+  position: absolute;
+  top: -12px;
+  width: 100%;
+  display: block;
+  z-index: -1;
+  left: 0;
+}
+.submenuContainer--submenu-header:hover {
+  height: 400px;
+}
+.submenuWrapper--submenu-header {
+  width: 100%;
+  padding: 80px 0 20px;
+}
+.menuContainer--department-submenu-hijo {
+  width: 100%;
+  max-width: 1226px !important;
+  margin: 0 auto;
+  display: flex;
+}
+.menuContainerNav--department-submenu-hijo {
+  width: 100%;
+  max-width: 1226px !important;
+  margin: 0 auto;
+  display: flex;
+}
+.menuContainerNav--Menu--header-desktop {
+  margin-right: 4%;
+}
+.menuContainerNav--header--menu__mobile {
+  width: 90%;
+}

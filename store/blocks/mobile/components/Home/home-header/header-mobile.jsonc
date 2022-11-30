@@ -29,7 +29,7 @@
     "props": {
       "blockClass": "header__logo--headersecond",
       "src": "assets/img/icon payments/logo-header.png",
-       "link": {
+      "link": {
         "openNewTab": false,
         "url": "https://marlon--itgloberspartnercl.myvtex.com/"
       }
@@ -38,19 +38,31 @@
   "header-row#2-mobile": {
     "children": [
       "drawer#header__mobile--menu",
-      //      "header-spacer",
-      "search-bar#header__searchMobile",
+      "drawer#header__mobile-search",
       "minicart.v2",
       "login"
-      // "header-spacer",
     ],
     "props": {
       "blockClass": "header__drawerContainer--bottom"
     }
   },
+  "drawer#header__mobile-search": {
+    "children": ["flex-layout.row#drawer-search--bar-mobile"],
+    "props": {
+      "blockClass": "search-drawer-mobile",
+      "isFullWidth": true
+    }
+  },
+  "flex-layout.row#drawer-search--bar-mobile": {
+    "children": ["flex-layout.col#drawer-search--bar-mobile"]
+  },
+  "flex-layout.col#drawer-search--bar-mobile": {
+    "children": ["search-bar#header__searchMobile"]
+  },
   "search-bar#header__searchMobile": {
     //   "blocks": ["autocomplete-result-list.v2"],
     "props": {
+      "placeholder": "Buscar producto",
       "openAutocompleteOnFocus": true
     }
   },
@@ -63,7 +75,8 @@
     "children": ["menu#header-menu"],
     "props": {
       "blockClass": "menu-drawer--mobile",
-      "slideDirection": "rightToLeft"
+      "slideDirection": "rightToLeft",
+      "isFullWidth": true
     }
   },
   "menu#header-menu": {

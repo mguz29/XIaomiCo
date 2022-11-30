@@ -1,0 +1,87 @@
+{
+  "flex-layout.row#product-menu-slider": {
+    "children": [
+      "flex-layout.col#product-menu-slider2",
+      "flex-layout.col#product-menu-slider",
+      "flex-layout.col#product-menu-slider3"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "Container-slider-product"
+    }
+  },
+  "flex-layout.col#product-menu-slider2": {
+    "props": {
+      "width": "50%"
+    }
+  },
+  "flex-layout.col#product-menu-slider3": {
+    "children": ["rich-text#menu-mas"],
+    "props": {
+      "blockClass": "contenedor-menu-mas",
+      "width": "50%"
+    }
+  },
+  "rich-text#menu-mas": {
+    "props": {
+      "blockClass": "texto-ver-mas",
+      "text": "[Más](/electrodomesticos)",
+      "href": "/electrodomesticos"
+    }
+  },
+  "flex-layout.col#product-menu-slider": {
+    "children": ["list-context.product-list#dproduct-menu"],
+    "props": {
+      "width": "250%"
+    }
+  },
+  "list-context.product-list#dproduct-menu": {
+    "title": "slider productos menu header",
+    "blocks": ["product-summary.shelf#header-menu"],
+    "children": ["flex-layout.row#slider-productos--header"]
+    // "props": {
+    //   "category": "1"
+    // }
+  },
+  "product-summary.shelf#header-menu": {
+    "title": "summary products slider home",
+    "children": [
+      "product-summary-image#iamge-product",
+      "product-summary-name",
+      "product-summary-price#price-header"
+    ]
+  },
+  "product-summary-image#iamge-product": {
+    "title": "Imagen producto",
+    "props": {
+      "height": 123,
+      "width": {
+        "desktop": "123px"
+      }
+    }
+  },
+  "product-summary-price#price-header": {
+    "props": {
+      "blockClass": "header--product-price"
+    }
+  },
+  "flex-layout.row#slider-productos--header": {
+    "children": ["slider-layout#home__header-products--children"]
+  },
+  "slider-layout#home__header-products--children": {
+    "title": "Slider con hijos declaradors",
+    "props": {
+      "maxWidth": "1260px",
+      "margin": "auto",
+      "width": "100%",
+
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "mobile": 1
+      },
+
+      "blockClass": "header__slider--products"
+    }
+  }
+}

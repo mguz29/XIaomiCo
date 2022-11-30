@@ -1,0 +1,231 @@
+{
+  "menu#footer__menu--group": {
+    "children": [
+      "menu-item#soporte",
+      "menu-item#sobre__nosotros",
+      "menu-item#siguenos"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#soporte": {
+    "props": {
+      "id": "category-ne",
+      "type": "custom",
+      "blockClass": "footer-menu-item-mobile",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "google title",
+        "text": "Soporte"
+      }
+    },
+    "blocks": ["submenu.accordion#category__soporte"]
+  },
+  "submenu.accordion#category__soporte": {
+    "children": ["menu#soporte"]
+  },
+
+  "menu#soporte": {
+    "children": [
+      "menu-item#garantias",
+      "menu-item#FAQ-Envios",
+      "menu-item#Facturacion",
+      "menu-item#Politicas__de__Devolucion",
+      "menu-item#Promociones",
+      "menu-item#sic"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#garantias": {
+    "props": {
+      "blockClass": "footer__menuitem--soporte",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Garantias",
+        "text": "Garantias"
+      }
+    }
+  },
+  "menu-item#FAQ-Envios": {
+    "props": {
+      "blockClass": "footer__menuitem--soporte",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "FAQ-Envios",
+        "text": "FAQ Envios"
+      }
+    }
+  },
+  "menu-item#Facturacion": {
+    "props": {
+      "blockClass": "footer__menuitem--soporte",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Facturacion",
+        "text": "Facturacion"
+      }
+    }
+  },
+  "menu-item#Politicas__de__Devolucion": {
+    "props": {
+      "blockClass": "footer__menuitem--soporte",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://marlon--itgloberspartnercl.myvtex.com/politicas-devoluciones",
+        "tagTitle": "Politicas__de__Devolucion",
+        "text": "Politicas de Devolucion"
+      }
+    }
+  },
+  "menu-item#Promociones": {
+    "props": {
+      "blockClass": "footer__menuitem--soporte",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Promociones",
+        "text": "Promociones"
+      }
+    }
+  },
+
+  "menu-item#sobre__nosotros": {
+    "props": {
+      "id": "category-ne",
+      "type": "custom",
+      "blockClass": "footer-menu-item-mobile",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "google title",
+        "text": "Sobre nosotros"
+      }
+    },
+    "blocks": ["submenu.accordion#category--sobre__nosotros"]
+  },
+  "submenu.accordion#category--sobre__nosotros": {
+    "children": ["menu#sobre__nosotros"]
+  },
+
+  "menu#sobre__nosotros": {
+    "children": [
+      "menu-item#tekmovil",
+      "menu-item#Aviso_de_privacidad",
+      "menu-item#Terminos_y_condicones"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#tekmovil": {
+    "props": {
+      "blockClass": "footer__menu-item--sobre__nosotros",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Tekmovil",
+        "text": "Tekmovil"
+      }
+    }
+  },
+  "menu-item#Aviso_de_privacidad": {
+    "props": {
+      "blockClass": "footer__menu-item--sobre__nosotros",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Aviso_de_privacidad",
+        "text": "Aviso de privacidad"
+      }
+    }
+  },
+  "menu-item#sic": {
+    "props": {
+      "blockClass": "footer__menu-item--sobre__nosotros",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "sic",
+        "text": "Superintendencia de industria y comercio"
+      }
+    }
+  },
+  "menu-item#Terminos_y_condicones": {
+    "props": {
+      "blockClass": "footer__menu-item--sobre__nosotros",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Garantias",
+        "text": "Garantias"
+      }
+    }
+  },
+
+  "menu-item#siguenos": {
+    "props": {
+      "id": "category-ne",
+      "type": "custom",
+      "blockClass": "footer-menu-item-mobile",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "google title",
+        "text": "Siguenos"
+      }
+    },
+    "blocks": ["submenu.accordion#category--siguenos"]
+  },
+  "submenu.accordion#category--siguenos": {
+    "children": ["menu#siguenos"]
+  },
+  "menu#siguenos": {
+    "children": ["menu-item#Xiaomi_colombiaf", "menu-item#Xiaomi_colombiai"],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#Xiaomi_colombiaf": {
+    "props": {
+      "blockClass": "footer__menu-item--siguenos",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Facebook",
+        "text": "Xiaomi Colombia"
+      }
+    }
+  },
+  "menu-item#Xiaomi_colombiai": {
+    "props": {
+      "blockClass": "footer__menu-item--siguenos",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "Instagram",
+        "text": "Xiaomi Colombia"
+      }
+    }
+  }
+}

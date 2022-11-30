@@ -107,16 +107,16 @@
     }
   },
   "flex-layout.row#input__containter": {
-    "children": ["newsletter-input-email", "newsletter-submit"],
+    "children": ["newsletter-input-email"],
     "props": {
       "blockClass": "layout--container-inputs"
     }
   },
-  "newsletter-submit": {
-    "props": {
-      "submitButtonLabel": ">."
-    }
-  },
+  // "newsletter-submit": {
+  //   "props": {
+  //     "submitButtonLabel": ">."
+  //   }
+  // },
   "newsletter-input-email": {
     "props": {
       "placeholderText": "Deja tu mail aquí"
