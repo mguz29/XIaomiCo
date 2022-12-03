@@ -1,0 +1,42 @@
+{
+  "header-row#1-searchBar-desktop": {
+    "children": [
+      "header-force-center",
+      "rich-text#header",
+      "header-spacer",
+      "search-bar#header-desktop",
+      "header-spacer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "fullWidth": "true",
+      "blockClass": "header-layout--containert"
+    }
+  },
+  "rich-text#header": {
+    "props": {
+      "blockClass": "section__one--title",
+      "text": "ENVÍO GRATIS A PARTIR DE $400 MIL",
+      "textColor": "#f5f5f5"
+    }
+  },
+
+  "search-bar#header-desktop": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "maxWidth": "300px",
+      "placeholder": "Buscar Productos",
+      "openAutocompleteOnFocus": true,
+      "blockClass": "header-search-bar"
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary"],
+    "props": {
+      "maxSuggestedProducts": 4,
+      "maxTopSearches": 5,
+      "maxHistory": 5
+    }
+  }
+}

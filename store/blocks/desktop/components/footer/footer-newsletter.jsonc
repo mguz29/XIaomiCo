@@ -1,0 +1,38 @@
+{
+  "flex-layout.row#footer__newsletter": {
+    "children": ["newsletter-form"],
+    "props": {
+      "blockClass": "footer--Form--newsletter"
+    }
+  },
+  "newsletter-form": {
+    "children": ["newsletter-input-name", "flex-layout.row#input__containter"],
+    "props": {
+      "blockClass": "newsletter--form--desktop"
+    }
+  },
+  "flex-layout.row#input__containter": {
+    "children": ["newsletter-input-email"],
+    "props": {
+      "blockClass": "layout--container-inputs"
+    }
+  },
+  // "newsletter-submit": {
+  //   "props": {
+  //     "submitButtonLabel": ">."
+  //   }
+  // },
+  "newsletter-input-email": {
+    "props": {
+      "placeholderText": "Deja tu mail aquí"
+      //"inputLabel": "Recibe 10% de descuento en tu primera compra Entérate antes que nadie de las mejores promociones"
+    }
+  },
+  "newsletter-input-name": {
+    "props": {
+      "blockClass": "newsletter--input-name--desktop",
+      "placeholderText": "Deja tu name aquí",
+      "inputLabel": "Recibe 10% de descuento en tu primera compra Entérate antes que nadie de las mejores promociones"
+    }
+  }
+}

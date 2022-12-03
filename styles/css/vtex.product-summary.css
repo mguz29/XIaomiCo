@@ -89,3 +89,6 @@
 .installmentContainer--header--product-price-mobile {
   display: none;
 }
+.nameContainer--product-summary--name {
+  padding: 0;
+}

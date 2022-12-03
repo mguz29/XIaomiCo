@@ -1,8 +1,0 @@
-{
-    "rich-text#home__section--tittle":{
-        "props":{
-            "blockClass":"home__titles",
-            "text":"RECOMENDADOS PARA TI"
-        }
-    }
-}

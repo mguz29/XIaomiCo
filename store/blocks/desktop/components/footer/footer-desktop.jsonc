@@ -1,0 +1,27 @@
+{
+  "footer-layout.desktop": {
+    "title": "Footer Desktop",
+    "children": [
+      "flex-layout.row#footer__footer-badges",
+      "flex-layout.row#footer__newsletter",
+      "flex-layout.row#footer__containter-info",
+      "flex-layout.row#footer__Copyright"
+    ],
+    "props": {
+      "blockClass": "Footer-layout--container"
+    }
+  },
+
+  "flex-layout.row#footer__Copyright": {
+    "children": ["rich-text#footer--copyriht"],
+    "props": {
+      "blockClass": "footer__section--creditos"
+    }
+  },
+  "rich-text#footer--copyriht": {
+    "props": {
+      "blockClass": "footer-credits",
+      "text": "Copyright © 2022 Xiaomi. All Rights Reserved"
+    }
+  }
+}
