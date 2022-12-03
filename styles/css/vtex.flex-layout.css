@@ -338,3 +338,7 @@
   :global(.vtex-reviews-and-ratings-3-x-star--filled) {
   color: #ff6900;
 }
+.flexRowContent--product-precio--rating
+  :global(.vtex-reviews-and-ratings-3-x-star--filled) {
+  color: #ff6900;
+}

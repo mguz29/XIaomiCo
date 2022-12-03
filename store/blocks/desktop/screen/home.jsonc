@@ -1,25 +1,35 @@
 {
   "store.home": {
     "blocks": [
-      "whatsapp-button",
       "responsive-layout.desktop",
       "responsive-layout.mobile",
       "flex-layout.row#home__section--ofertas",
       "flex-layout.row#home__section--banner",
       "responsive-layout.desktop#products--home",
       "responsive-layout.mobile#products--home",
-      // "flex-layout.row#productos--home-recomendados",
-      // "flex-layout.row#home--collage-products",
+      //     "list-context-bullet-group",
       "responsive-layout.desktop#productos-estrella--home",
       "responsive-layout.mobile#productos-estrella--home",
-      "flex-layout.row#home__section--bannerSecundario"
+      "flex-layout.row#home__section--bannerSecundario",
+      "whatsapp-button"
     ]
   },
   "whatsapp-button": {
     "props": {
-      "logo": "logo-de-lo-que-sea.png",
+      "logo": "assets/img/whatsappLogo.png",
       "phone": "3223313796",
       "message": "hol apeeroo"
+    }
+  },
+  "list-context-bullet-group": {
+    "props": {
+      "bullets": {
+        "image": "mi-imaComputadoresgen.png",
+        "titleBullet": "Computadores",
+        "link": {
+          "url": "./"
+        }
+      }
     }
   }
 }

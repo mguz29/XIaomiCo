@@ -1,0 +1,133 @@
+{
+  "menu#header-menu--desktop": {
+    "children": [
+      "menu-item#department__smartphones",
+      "menu-item#department__Hogar",
+      "menu-item#department__Movilidad",
+      "menu-item#department__Fitness",
+      "menu-item#department__Juguetes",
+      "menu-item#department__Audio",
+      "menu-item#department__Todo"
+    ],
+    "props": {
+      "blockClass": "Menu--header-desktop"
+    }
+  },
+  "menu-item#department__smartphones": {
+    "props": {
+      "id": "category-ne",
+      "type": "custom",
+      "blockClass": "header--menu__item",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.google.com/",
+        "noFollow": true,
+        "tagTitle": "google title",
+        "text": "Smartphones"
+      }
+    },
+    "blocks": ["submenu#category__oneDesktop"]
+  },
+  "submenu#category__oneDesktop": {
+    "children": ["menu#department__oneDesktop"],
+    "props": {
+      "blockClass": "submenu-header"
+    }
+  },
+  "menu#department__oneDesktop": {
+    "children": ["flex-layout.row#product-menu-slider"],
+    "props": {
+      "blockClass": "department-submenu-hijo"
+    }
+  },
+
+  "menu-item#department__Hogar": {
+    "props": {
+      "id": "category-ne",
+      "type": "custom",
+      "blockClass": "header--menu__item",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.xiaomi-store.co/",
+        "noFollow": true,
+        "tagTitle": "google title",
+        "text": "Hogar conectado"
+      }
+    },
+    "blocks": ["submenu#category__oneDesktop"]
+  },
+  "menu-item#department__Movilidad": {
+    "props": {
+      "id": "category-ne",
+      "type": "custom",
+      "blockClass": "header--menu__item",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.xiaomi-store.co/",
+        "noFollow": true,
+        "tagTitle": "google title",
+        "text": "Movilidad"
+      }
+    },
+    "blocks": ["submenu#category__oneDesktop"]
+  },
+  "menu-item#department__Fitness": {
+    "props": {
+      "id": "category-ne",
+      "type": "custom",
+      "blockClass": "header--menu__item",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.xiaomi-store.co/",
+        "noFollow": true,
+        "tagTitle": "google title",
+        "text": "Fitness & Lifestyle"
+      }
+    },
+    "blocks": ["submenu#category__oneDesktop"]
+  },
+  "menu-item#department__Juguetes": {
+    "props": {
+      "id": "category-ne",
+      "type": "custom",
+      "blockClass": "header--menu__item",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.xiaomi-store.co/",
+        "noFollow": true,
+        "tagTitle": "google title",
+        "text": "Gadgest y juguetes"
+      }
+    },
+    "blocks": ["submenu#category__oneDesktop"]
+  },
+  "menu-item#department__Audio": {
+    "props": {
+      "id": "category-ne",
+      "type": "custom",
+      "blockClass": "header--menu__item",
+      "itemProps": {
+        "type": "external",
+        "href": "https://www.xiaomi-store.co/",
+        "noFollow": true,
+        "tagTitle": "google title",
+        "text": "Audio"
+      }
+    },
+    "blocks": ["submenu#category__oneDesktop"]
+  },
+  "menu-item#department__Todo": {
+    "props": {
+      "id": "category-ne",
+      "type": "custom",
+      "blockClass": "header--menu__item",
+      "itemProps": {
+        "type": "external",
+        "href": "/electrodomesticos",
+        "noFollow": true,
+        "tagTitle": "google title",
+        "text": "Ver Todo"
+      }
+    }
+  }
+}

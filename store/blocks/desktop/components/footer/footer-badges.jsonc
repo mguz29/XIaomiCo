@@ -1,0 +1,70 @@
+{
+  "flex-layout.row#footer__footer-badges": {
+    "children": ["flex-layout.row#footer__badges"]
+  },
+  "flex-layout.row#footer__badges": {
+    "children": [
+      "flex-layout.col#footer__badges--changes",
+      "flex-layout.col#footer__badges--store",
+      "flex-layout.col#footer__badges--buy"
+    ],
+    "props": {
+      "blockClass": "footer--badges"
+    }
+  },
+  "flex-layout.col#footer__badges--changes": {
+    "children": ["info-card#changes"]
+  },
+  "info-card#changes": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "callToActionMode": "none",
+      // "callToActionText": "DISCOVER",
+      // "callToActionUrl": "/sale/d",
+      "textPosition": "right",
+      "imageUrl": "assets/img/devoluciones2_footer.png",
+      "headline": "Cambios y devoluciones",
+      "subhead": "Cambios o devoluciones sin costo.",
+      "blockClass": "info-card-example",
+      "textAlignment": "center"
+    }
+  },
+  "flex-layout.col#footer__badges--store": {
+    "children": ["info-card#store"]
+  },
+  "info-card#store": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "callToActionMode": "none",
+      // "callToActionText": "DISCOVER",
+      // "callToActionUrl": "/sale/d",
+      "textPosition": "right",
+      "imageUrl": "assets/img/LogoXiaominfocard.webp",
+      "headline": "La tienda en Colombia",
+      "subhead": "Tecnología todo el día, todos los días.",
+      "blockClass": "info-card-example",
+      "textAlignment": "center"
+    }
+  },
+
+  "flex-layout.col#footer__badges--buy": {
+    "children": ["info-card"]
+  },
+  "info-card": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "callToActionMode": "none",
+      // "callToActionText": "DISCOVER",
+      // "callToActionUrl": "/sale/d",
+      "textPosition": "right",
+      "imageUrl": "assets/img/logoCompraSegura.png",
+      "headline": "Compra segura siempre",
+      "subhead": "Tus datos siempre estarán protegidos.",
+      "blockClass": "info-card-example",
+      "textAlignment": "center"
+    }
+  }
+}
