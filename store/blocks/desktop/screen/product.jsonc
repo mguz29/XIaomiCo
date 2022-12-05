@@ -11,9 +11,15 @@
       "flex-layout.row#product__breadcrumb",
       "flex-layout.row#product__info",
       "flex-layout.row#product__descriptions",
+      "product-images#prueba",
       "flex-layout.row#productos--home-recomendados",
-      "product-questions-and-answers",
-      "product-reviews"
+      "flex-layout.row#product__tabs"
     ]
+  },
+  "product-images#prueba": {
+    "props": {
+      "blockClass": "product-images",
+      "thumbnailsOrientation": "horizontal"
+    }
   }
 }

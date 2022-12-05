@@ -1,0 +1,59 @@
+{
+  "flex-layout.row#product__tabs": {
+    "title": "Comentarios",
+    "children": ["tab-layout#product__tabs"]
+  },
+  "tab-layout#product__tabs": {
+    "children": [
+      "tab-list#product__tabs--list",
+      "tab-content#product__tabs--content"
+    ]
+  },
+  "tab-list#product__tabs--list": {
+    "children": [
+      "tab-list.item#tabs--list--reviews-and-ratings",
+      "tab-list.item#tabs--list--reviews-and-ratings2"
+    ]
+  },
+  "tab-list.item#tabs--list--reviews-and-ratings": {
+    "props": {
+      "tabId": "reviews-and-ratings",
+      "label": "Opiniones",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#tabs--list--reviews-and-ratings2": {
+    "props": {
+      "tabId": "Comentarios-esp",
+      "label": "cometarios",
+      "defaultActiveTab": false
+    }
+  },
+  "tab-content#product__tabs--content": {
+    "children": [
+      "tab-content.item#tabs--list--reviews-and-ratings",
+      "tab-content.item#comentarios"
+    ]
+  },
+  "tab-content.item#tabs--list--reviews-and-ratings": {
+    "props": {
+      "tabId": "reviews-and-ratings"
+    },
+    "children": [
+      "product-rating-summary",
+      "product-reviews",
+      "product-rating-inline"
+    ]
+  },
+  "tab-content.item#comentarios": {
+    "props": {
+      "tabId": "Comentarios-esp"
+    },
+    "children": ["rich-text#pruebaa", "product-questions-and-answers"]
+  },
+  "rich-text#pruebaa": {
+    "props": {
+      "text": "## pruebaaa"
+    }
+  }
+}

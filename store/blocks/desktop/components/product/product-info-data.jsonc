@@ -46,9 +46,26 @@
   },
   "flex-layout.row#product-score--pdp": {
     "title": "Precio y Rating",
-    "children": ["product-price", "product-rating-summary"],
+    "children": [
+      "flex-layout.col#producto-precio--pdp",
+      "flex-layout.col#producto-calificacion--pdp"
+    ],
     "props": {
       "blockClass": "product-precio--rating"
+    }
+  },
+  "flex-layout.col#producto-precio--pdp": {
+    "children": ["product-price"]
+  },
+  "flex-layout.col#producto-calificacion--pdp": {
+    "props": {
+      "blockClass": "calificacion-producto"
+    },
+    "children": ["product-rating-summary#estrellas--pdp"]
+  },
+  "product-rating-summary#estrellas--pdp": {
+    "props": {
+      "blockClass": "calificacion-producto"
     }
   },
   "flex-layout.row#product-politicas-envio": {

@@ -3,7 +3,7 @@
     "children": ["slider-layout#home__slider--children-mobile"]
   },
   "slider-layout#home__slider--children-mobile": {
-    "title": "Slider con hijos declaradors",
+    "title": "Slider con hijos declaradors Mobile",
     "props": {
       "maxWidth": "414px",
       "margin": "auto",

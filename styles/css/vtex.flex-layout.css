@@ -116,7 +116,7 @@
 } */
 
 .flexRow--slider-productos-estrellas {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 .flexRow--container--collage-productos-estrellas {
   /* max-width: 1350px; */
@@ -263,7 +263,7 @@
   border-color: #f66602;
 }
 .flexRow--Contenedor-info--general-description {
-  margin: 40px auto;
+  margin: 60px auto;
   max-width: 1400px;
   width: 90%;
 }
@@ -341,4 +341,12 @@
 .flexRowContent--product-precio--rating
   :global(.vtex-reviews-and-ratings-3-x-star--filled) {
   color: #ff6900;
+}
+.flexColChild--calificacion-producto {
+  display: flex;
+  justify-content: flex-end;
+}
+.flexColChild--calificacion-producto
+  :global(.vtex-reviews-and-ratings-3-x-summaryContainer) {
+  margin: 0;
 }

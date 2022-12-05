@@ -247,3 +247,36 @@
 .logoLink--logoHeader {
   margin-left: 4%;
 }
+.productImagesGallerySwiperContainer--product-images {
+  display: none;
+}
+.productImagesContainer--product-images--carousel {
+  max-width: 1400px;
+  margin: 0 auto;
+  width: 90%;
+}
+.productImagesThumb--product-images {
+  height: 400px !important;
+  width: 33% !important;
+}
+.carouselGaleryThumbs--product-images .swiper-wrapper {
+  justify-content: space-between !important;
+}
+.portalWrapper--header-search-bar :global(.vtex-search-2-x-biggy-autocomplete) {
+  width: 80%;
+  max-width: 1226px;
+  margin: 20px auto;
+  display: flex;
+  position: static;
+}
+.portalWrapper--header-search-bar
+  :global(.vtex-search-2-x-biggy-autocomplete-wrapper) {
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+.portalwrapper--header-search-bar
+  :global(.vtex-search-2-x-history-and-top-wrapper) {
+  flex-direction: row-reverse;
+}

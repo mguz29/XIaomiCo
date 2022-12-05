@@ -47,7 +47,7 @@
 .slide--home__slider--productos--recomendados-mobile {
   background-color: #fff;
   width: 9% !important;
-  padding: 12px;
+  margin: 12px;
 }
 .paginationDotsContainer--home__slider--productos--recomendados-mobile {
   display: none;
@@ -55,7 +55,7 @@
 .slide--home__slider--products-mobile {
   background-color: #fff;
   width: 9% !important;
-  padding: 12px;
+  margin: 12px;
 }
 .sliderRightArrow--home__slider--products-mobile {
   display: none;

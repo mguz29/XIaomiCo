@@ -320,6 +320,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center !important;
 }
 .container--subtitulo1--section-dos {
   width: 80%;
@@ -395,3 +396,12 @@ left: 0;
 width: 50px;
 height: 50px;
 position: absolute; */
+/* .heading--Text--banner__section-one {
+  text-align: center;
+}
+.heading--Text--banner__section-one {
+  text-align: center !important;
+}
+.wrapper--Text--banner__section-one {
+  text-align: center !important;
+} */
