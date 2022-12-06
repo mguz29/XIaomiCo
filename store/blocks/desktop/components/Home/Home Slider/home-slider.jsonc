@@ -1,5 +1,5 @@
 {
-  "responsive-layout.desktop": {
+  "responsive-layout.desktop#slider-principal": {
     "children": ["slider-layout#home__slider--children"]
   },
 
