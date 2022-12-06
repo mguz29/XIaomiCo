@@ -1,5 +1,5 @@
 {
-  "responsive-layout.mobile": {
+  "responsive-layout.mobile#slider-principal-mobile": {
     "children": ["slider-layout#home__slider--children-mobile"]
   },
   "slider-layout#home__slider--children-mobile": {

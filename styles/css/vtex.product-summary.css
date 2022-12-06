@@ -92,3 +92,10 @@
 .nameContainer--product-summary--name {
   padding: 0;
 }
+.element--Conatiner--summary
+  :global(.vtex-reviews-and-ratings-3-x-star--filled) {
+  color: #ff6700;
+}
+.element--Conatiner--summary :global(.vtex-reviews-and-ratings-3-x-star) {
+  color: #ff6700;
+}

@@ -1,15 +1,13 @@
 {
   "flex-layout.row#productos--home-mas--vendidos": {
+    "title": "Vitrina de Productos mas Vendidos",
     "children": ["flex-layout.col#productos--estrellas"]
-    // "props": {
-    //   "verticalAlign": "top"
-    // }
   },
   "flex-layout.col#productos--estrellas": {
-    "children": ["list-context.product-list#demo1"]
+    "children": ["list-context.product-list#home-productos-mas-vendidos"]
   },
-  "list-context.product-list#demo1": {
-    "title": "slider productos home",
+  "list-context.product-list#home-productos-mas-vendidos": {
+    "title": "Vitrina de Productos mas Vendidos",
     "blocks": ["product-summary.shelf#demo1"],
     "children": [
       "flex-layout.row#title-productos--estrellas",

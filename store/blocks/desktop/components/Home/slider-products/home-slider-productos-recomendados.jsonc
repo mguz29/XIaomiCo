@@ -1,15 +1,13 @@
 {
   "flex-layout.row#productos--home-recomendados": {
+    "title": "Vitrina de Productos Recomendados",
     "children": ["flex-layout.col#productos--recomendados"]
-    // "props": {
-    //   "verticalAlign": "top"
-    // }
   },
   "flex-layout.col#productos--recomendados": {
     "children": ["list-context.product-list#productos-recomendados"]
   },
   "list-context.product-list#productos-recomendados": {
-    "title": "slider productos home",
+    "title": "Vitrina de Productos Recomendados",
     "blocks": ["product-summary.shelf#recomendados"],
     "children": [
       "flex-layout.row#title-recomendados",

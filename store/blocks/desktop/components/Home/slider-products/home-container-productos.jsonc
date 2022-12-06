@@ -1,5 +1,6 @@
 {
   "responsive-layout.desktop#products--home": {
+    "title": "Contenedor vitrinas Home",
     "children": [
       "flex-layout.row#productos--home-mas--vendidos",
       "flex-layout.row#productos--home-recomendados"
