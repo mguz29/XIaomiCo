@@ -262,21 +262,21 @@
 .carouselGaleryThumbs--product-images .swiper-wrapper {
   justify-content: space-between !important;
 }
-.portalWrapper--header-search-bar :global(.vtex-search-2-x-biggy-autocomplete) {
-  width: 80%;
-  max-width: 1226px;
-  margin: 20px auto;
-  display: flex;
-  position: static;
+.price_sellingPrice {
+  font-size: 19px !important;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ff6900;
 }
-.portalWrapper--header-search-bar
-  :global(.vtex-search-2-x-biggy-autocomplete-wrapper) {
-  width: 100vw;
-  position: fixed;
-  left: 0;
-  right: 0;
-}
-.portalwrapper--header-search-bar
-  :global(.vtex-search-2-x-history-and-top-wrapper) {
-  flex-direction: row-reverse;
+.productBrand {
+  font-size: 45px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1c1c1c important!;
 }

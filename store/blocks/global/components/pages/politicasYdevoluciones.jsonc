@@ -1,5 +1,5 @@
 {
-  "store.custom#politcas": {
+  "store.custom#politicas": {
     "blocks": [
       "flex-layout.row#politicas__seccion-uno",
       "flex-layout.row#politicas__seccion-dos",

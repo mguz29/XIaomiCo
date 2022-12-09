@@ -7,8 +7,8 @@
       "width": "100%",
       "blockClass": "home__image",
       "link": {
-        "url": "https://www.xiaomi-store.co/xiaomi-mi-robot-vacuum-mop-2-lite-us/p",
-        "newTab": true,
+        "url": "/sol/p",
+        "newTab": false,
         "attributeNoFollow": true
       }
     }
@@ -21,8 +21,8 @@
       "width": "100%",
       "blockClass": "home__image",
       "link": {
-        "url": "https://www.xiaomi-store.co/xiaomi-mi-robot-vacuum-mop-2-lite-us/p",
-        "newTab": true,
+        "url": "/puerta-triplex-okume/p",
+        "newTab": false,
         "attributeNoFollow": true
       }
     }
@@ -35,8 +35,8 @@
       "title": "Mas vendido",
       "blockClass": "home__image",
       "link": {
-        "url": "https://www.xiaomi-store.co/xiaomi-mi-robot-vacuum-mop-2-lite-us/p",
-        "newTab": true,
+        "url": "/queso-alpina/p",
+        "newTab": false,
         "attributeNoFollow": true
       }
     }
@@ -48,19 +48,18 @@
       "title": "B2B Commerce",
       "blockClass": "home__image",
       "link": {
-        "url": "https://www.xiaomi-store.co/xiaomi-mi-robot-vacuum-mop-2-lite-us/p",
-        "newTab": true,
+        "url": "/cemento-argos-gris-50kg/p",
+        "newTab": false,
         "attributeNoFollow": true
       }
     }
   },
-  "image#home__image--BannerSecundario":{
-    "title":"Banner Home secundario ",
-    "props":{
-      "src":"assets/img/bannerTerceario.png",
-      "title":"Banner Home Terceario",
+  "image#home__image--BannerSecundario": {
+    "title": "Banner Home secundario ",
+    "props": {
+      "src": "assets/img/bannerTerceario.png",
+      "title": "Banner Home Terceario",
       "blockClass": "home__image"
     }
   }
-
 }

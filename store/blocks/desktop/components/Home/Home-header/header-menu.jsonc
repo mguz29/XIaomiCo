@@ -124,7 +124,7 @@
       "itemProps": {
         "type": "external",
         "href": "/electrodomesticos",
-        "noFollow": true,
+        "noFollow": false,
         "tagTitle": "google title",
         "text": "Ver Todo"
       }

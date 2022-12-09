@@ -12,8 +12,8 @@
       "flex-layout.row#product__info",
       "flex-layout.row#product__descriptions",
       "product-images#prueba",
-      "flex-layout.row#productos--home-recomendados",
-      "flex-layout.row#product__tabs"
+      "flex-layout.row#productos--home-recomendados"
+      // "flex-layout.row#product__tabs"
     ]
   },
   "product-images#prueba": {

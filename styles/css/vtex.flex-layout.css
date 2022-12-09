@@ -94,14 +94,11 @@
   align-items: center;
 }
 .flexRow--container--filters {
-  max-width: 1226px;
+  max-width: 1400px;
   margin: 0 auto;
-  width: 100%;
+  width: 90%;
 }
-.flexRowContent--container-Search--content
-  :global(.vtex-search-result-3-x-gallery) {
-  padding-left: 0;
-}
+
 .flexRow--footer__section--creditos {
   background-color: #1c1c1c;
 }
@@ -142,9 +139,9 @@
   /* width: 90%;
   margin: 3% auto;
   padding: 0 2%; */
-  max-width: 1226px;
+  max-width: 1400px;
   margin: 0 auto;
-  width: 100%;
+  width: 90%;
   margin-top: 20px;
   margin-bottom: 50px;
 }
@@ -154,18 +151,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.flexColChild--filters--search--mobile
-  :global(.vtex-search-result-3-x-totalProducts--layout) {
-  padding: 0;
-  padding-left: 0;
-  padding-right: 0;
-  white-space: nowrap;
-  min-width: 120px;
-}
-.flexColChild--filters--search--mobile
-  :global(.vtex-search-result-3-x-totalProductsMessage) {
-  color: #1c1c1c !important;
-}
+
 .flexRow--container-politicas-seccion-one {
   margin-right: 25px;
   margin-left: 25px;
@@ -192,29 +178,7 @@
 .flexRowContent--product-precio--rating {
   align-items: center;
 }
-.flexRowContent--product-precio--rating
-  :global(.vtex-store-components-3-x-price_sellingPrice) {
-  font-size: 19px !important;
-  font-weight: 400;
-  font-stretch: normal;
-  font-style: normal;
-  letter-spacing: normal;
-  text-align: left;
-  color: #ff6900;
-}
-.flexRowContent--product-name :global(.vtex-store-components-3-x-productBrand) {
-  font-size: 45px;
-  font-weight: 400;
-  font-stretch: normal;
-  font-style: normal;
-  /* line-height: 0.9; */
-  letter-spacing: normal;
-  text-align: left;
-  color: #1c1c1c important!;
-  /* font-size: 48px; */
-  /* line-height: 17px; */
-  color: #1c1c1c;
-}
+
 .flexRowContent--product-precio--rating
   :global(.vtex-reviews-and-ratings-3-x-star--empty) {
   color: #ff6900;
@@ -349,4 +313,11 @@
 .flexColChild--calificacion-producto
   :global(.vtex-reviews-and-ratings-3-x-summaryContainer) {
   margin: 0;
+}
+.flexRowContent--seccion-Sugerencias--productos {
+  padding: 0 25px;
+}
+.flexColChild--filters--search {
+  display: flex;
+  align-items: center;
 }

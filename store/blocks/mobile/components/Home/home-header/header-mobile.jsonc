@@ -38,6 +38,7 @@
   "header-row#2-mobile": {
     "children": [
       "drawer#header__mobile--menu",
+
       "drawer#header__mobile-search",
       "minicart.v2",
       "login"
@@ -47,12 +48,17 @@
     }
   },
   "drawer#header__mobile-search": {
-    "children": ["flex-layout.row#drawer-search--bar-mobile"],
+    "children": ["menu#header-search"],
     "props": {
       "blockClass": "search-drawer-mobile",
       "isFullWidth": true
     }
   },
+  // "icon#drawer": {
+  //   "props": {
+  //     "id": "vuitg-search"
+  //   }
+  // },
   "flex-layout.row#drawer-search--bar-mobile": {
     "children": ["flex-layout.col#drawer-search--bar-mobile"]
   },
@@ -66,6 +72,26 @@
       "openAutocompleteOnFocus": true
     }
   },
+  "menu#header-search": {
+    "children": ["menu-item#search-bar"]
+  },
+  "menu-item#search-bar": {
+    "props": {
+      "type": "custom",
+      "highlight": false,
+      // "itemProps": {
+      //   "type": "internal",
+      //   "href": "#",
+      //   "noFollow": false,
+      //   "tagTitle": "Shop"
+      // },
+      "iconProps": {
+        "id": "vuitg-search"
+      }
+    }
+    // "blocks": ["flex-layout.row#drawer-search--bar-mobile"] // Defining a submenu
+  },
+
   "login": {
     "props": {
       "showIconProfile": true

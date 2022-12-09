@@ -3,7 +3,7 @@
     "title": "header Desktop",
     "children": ["header-row#1-searchBar-desktop", "header-row#2-menu-desktop"],
     "props": {
-      "blockClass": "header-layou--containert#home"
+      "blockClass": "header-layou--containert"
     }
   }
 }

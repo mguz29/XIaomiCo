@@ -20,9 +20,7 @@
   padding-top: 5px;
   margin-left: 10px;
 }
-.element--Conatiner--summary :global(.vtex-product-summary-2-x-nameContainer) {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+.nameContainer--search-new {
   display: flex;
   justify-content: flex-start;
 }
@@ -98,4 +96,33 @@
 }
 .element--Conatiner--summary :global(.vtex-reviews-and-ratings-3-x-star) {
   color: #ff6700;
+}
+.priceContainer--search-new-price {
+  justify-content: flex-end;
+  text-align: right;
+  height: 85px;
+  align-items: flex-end;
+}
+
+.sellingPriceContainer--search-new-price {
+  text-align: right;
+  color: #ff6900;
+  padding: 0;
+  margin: 0;
+  font-size: 15.5px;
+}
+.sellingPrice--search-new-price {
+  font-size: 15.5px;
+}
+.container--Conatiner--summary:hover {
+  box-shadow: 0 10px 10px 0 rgb(0 0 0 / 51%);
+  transition: all 0.5s ease-in;
+}
+.container--Conatiner--summary {
+  background-color: #fff;
+  padding: 0.75rem;
+  border-radius: 0;
+  /* //background-color: rgb(208, 208, 208); */
+  margin: 0;
+  /* margin-bottom: 25px; */
 }
