@@ -3,19 +3,14 @@
     "title": "seccion Banner Secundario",
     "children": ["flex-layout.col#section__bannerSecundario--image"],
     "props": {
-      "maxWidth": "1260px",
       "marginBottom": 4,
-      "width": "100%",
-      "blockClass": "home__section--banner",
-      "colSizing": "auto",
-      "horizontalAlign": "center"
+      "blockClass": "home__section--banner"
     }
   },
   "flex-layout.col#section__bannerSecundario--image": {
     "title": "BannerSecundario Image",
     "children": ["image#home__image--BannerSecundario"],
     "props": {
-      "width": "90%",
       "preventVerticalStretch": false,
       "blockClass": "BannerContainer--home"
     }

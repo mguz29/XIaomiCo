@@ -8,7 +8,7 @@
     ],
     "props": {
       "maxWidth": "1260px",
-      "width": "90%",
+      "width": "100%",
       "blockClass": "home__section--ofertas",
       "colSizing": "auto",
       "horizontalAlign": "center",
@@ -23,7 +23,7 @@
       "blockClass": "imgContainerBoxOfertas--home",
       "marginRight": "3",
       "marginLeft": "3",
-      "width": "30%"
+      "width": "33%"
     }
   },
   "flex-layout.col#section__ofertas--image3": {
@@ -33,7 +33,7 @@
       "blockClass": "imgContainerBoxOfertas--home",
       "marginRight": "3",
       "marginLeft": "3",
-      "width": "30%"
+      "width": "33%"
     }
   },
   "flex-layout.col#section__ofertas--image2": {
@@ -43,7 +43,7 @@
       "blockClass": "imgContainerBoxOfertas--home",
       "marginRight": "3",
       "marginLeft": "3",
-      "width": "30%"
+      "width": "33%"
     }
   }
 }

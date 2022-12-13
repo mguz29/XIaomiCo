@@ -251,9 +251,9 @@
   display: none;
 }
 .productImagesContainer--product-images--carousel {
-  max-width: 1400px;
+  max-width: 1260px;
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
 }
 .productImagesThumb--product-images {
   height: 400px !important;

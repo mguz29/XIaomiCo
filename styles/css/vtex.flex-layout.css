@@ -1,5 +1,5 @@
 .FooterContainer {
-  max-width: 1240px;
+  max-width: 1260px;
   margin: 0 auto;
   padding: 0;
 }
@@ -8,26 +8,27 @@
   background-color: #1c1c1c;
 }
 .vtex-flex-layout-0-x-flexRowContent--FooterContainer.items-stretch.w-10 {
-  max-width: 1400px;
+  max-width: 1260px;
   margin: 0 auto;
+  width: 100%;
   padding: 0;
 }
 
 .flexRowContent--FooterContainer {
-  max-width: 1400px;
+  max-width: 1260px;
   margin: 0 auto;
   padding: 0;
   padding-bottom: 20px;
-  width: 93%;
+  width: 100%;
   border-bottom: solid white 2px;
 }
 .flexColChild--footer__col--five {
   padding-left: 25%;
 }
 .flexRowContent--footer__section--creditos {
-  max-width: 1400px;
+  max-width: 1260px;
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
   padding: 0;
 }
 .flexRowContent--footer-payments-top {
@@ -94,17 +95,17 @@
   align-items: center;
 }
 .flexRow--container--filters {
-  max-width: 1400px;
+  max-width: 1260px;
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
 }
 
 .flexRow--footer__section--creditos {
   background-color: #1c1c1c;
 }
 .flexRow--footer--Form--newsletter {
-  max-width: 1400px;
-  width: 91%;
+  max-width: 1260px;
+  width: 100%;
   margin: 0 auto;
   padding: 42px 15px;
 }
@@ -116,8 +117,8 @@
   margin-bottom: 2rem;
 }
 .flexRow--container--collage-productos-estrellas {
-  max-width: 1400px;
-  width: 90%;
+  max-width: 1260px;
+  width: 100%;
   margin: 0 auto;
 }
 .flexRow--contianer--collage-img-products {
@@ -125,6 +126,7 @@
   padding: 10px 9px;
 }
 .flexRow--home__section--banner {
+  max-width: 1260px;
   margin: 0 auto;
   padding: 10px 9px;
 }
@@ -139,9 +141,9 @@
   /* width: 90%;
   margin: 3% auto;
   padding: 0 2%; */
-  max-width: 1400px;
+  max-width: 1260px;
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
   margin-top: 20px;
   margin-bottom: 50px;
 }
@@ -164,13 +166,13 @@
 }
 .flexRow--Contenedor-info--general {
   margin: 0 auto;
-  max-width: 1400px;
-  width: 90%;
+  max-width: 1260px;
+  width: 100%;
 }
 .flexRow--Contenedor-miga-pan {
   margin: 0 auto;
-  max-width: 1400px;
-  width: 90%;
+  max-width: 1260px;
+  width: 100%;
 }
 .flexCol--contenedor-info--data {
   padding-left: 30px;
@@ -228,8 +230,8 @@
 }
 .flexRow--Contenedor-info--general-description {
   margin: 60px auto;
-  max-width: 1400px;
-  width: 90%;
+  max-width: 1260px;
+  width: 100%;
 }
 .flexCol--price-pdp
   :global(.vtex-store-components-3-x-price_listPriceContainer) {
@@ -323,4 +325,19 @@
 }
 .flexRow--Container-slider-product-mobile {
   display: contents;
+}
+.flexRow--home__section--ofertas {
+  max-width: 1260px;
+  margin: 0 auto;
+  width: 100%;
+}
+.flexRow--slider-productos-estrellas {
+  max-width: 1260px;
+  width: 100%;
+  margin: 0 auto;
+}
+.flexRow--footer--badges {
+  max-width: 1260px;
+  width: 100%;
+  margin: 0 auto;
 }

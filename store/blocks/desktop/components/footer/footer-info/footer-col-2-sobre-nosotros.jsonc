@@ -4,7 +4,7 @@
     "title": "Columna dos, Seccion Sobre nosotros",
     "props": {
       "blockClass": "footer__col--two",
-      "width": "14%"
+      "width": "15%"
     },
     "children": ["rich-text#sobre__nosotros", "menu#sobre__nosotros"]
   },
