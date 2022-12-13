@@ -6,6 +6,7 @@
     }
   },
   "newsletter-form": {
+    "title": "Formulario newsletter",
     "children": [
       "rich-text#title-newsletter",
       "flex-layout.row#input__containter"
@@ -33,6 +34,7 @@
   //   }
   // },
   "newsletter-input-email": {
+    "title": "Input email newsletter",
     "props": {
       "blockClass": "newsletter--input-name--desktop",
       "placeholderText": "Deja tu mail aquí",
@@ -40,11 +42,4 @@
       // "inputLabel": "Recibe 10% de descuento en tu primera compra Entérate antes que nadie de las mejores promociones"
     }
   }
-  // "newsletter-input-name": {
-  //   "props": {
-  //     "blockClass": "newsletter--input-name--desktop",
-  //     "placeholderText": "Deja tu name aquí",
-  //     "inputLabel": "Recibe 10% de descuento en tu primera compra Entérate antes que nadie de las mejores promociones"
-  //   }
-  // }
 }

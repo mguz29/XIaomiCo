@@ -1,0 +1,14 @@
+{
+  "responsive-layout.desktop": {
+    "title": "Contenedor Home Componentes Desktop",
+    "children": [
+      "responsive-layout.desktop#slider-principal",
+      "flex-layout.row#home__section--ofertas",
+      "flex-layout.row#home__section--banner",
+      "list-context-bullet-group",
+      "responsive-layout.desktop#products--home",
+      "flex-layout.row#home--collage-products",
+      "flex-layout.row#home__section--bannerSecundario"
+    ]
+  }
+}

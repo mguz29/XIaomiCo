@@ -116,7 +116,7 @@
   margin-bottom: 2rem;
 }
 .flexRow--container--collage-productos-estrellas {
-  /* max-width: 1350px; */
+  max-width: 1400px;
   width: 90%;
   margin: 0 auto;
 }
@@ -320,4 +320,7 @@
 .flexColChild--filters--search {
   display: flex;
   align-items: center;
+}
+.flexRow--Container-slider-product-mobile {
+  display: contents;
 }

@@ -1,10 +1,4 @@
 {
-  "store.product": {
-    "children": [
-      "responsive-layout.desktop#product-detail-page",
-      "responsive-layout.mobile#product-detail-page"
-    ]
-  },
   "responsive-layout.desktop#product-detail-page": {
     "children": [
       "flex-layout.row#departments",

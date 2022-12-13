@@ -1,5 +1,6 @@
 {
   "menu#header-menu--desktop": {
+    "title": "Menu header",
     "children": [
       "menu-item#department__smartphones",
       "menu-item#department__Hogar",
@@ -14,6 +15,7 @@
     }
   },
   "menu-item#department__smartphones": {
+    "title": "Menu item smartphones",
     "props": {
       "id": "category-ne",
       "type": "custom",
@@ -26,15 +28,17 @@
         "text": "Smartphones"
       }
     },
-    "blocks": ["submenu#category__oneDesktop"]
+    "blocks": ["submenu#menu-item"]
   },
-  "submenu#category__oneDesktop": {
+  "submenu#menu-item": {
+    "title": "Subcategoria Menu item",
     "children": ["menu#department__oneDesktop"],
     "props": {
       "blockClass": "submenu-header"
     }
   },
   "menu#department__oneDesktop": {
+    "title": "menu del submenu",
     "children": ["flex-layout.row#product-menu-slider"],
     "props": {
       "blockClass": "department-submenu-hijo"
@@ -42,6 +46,7 @@
   },
 
   "menu-item#department__Hogar": {
+    "title": "Menu item Hogar",
     "props": {
       "id": "category-ne",
       "type": "custom",
@@ -54,9 +59,10 @@
         "text": "Hogar conectado"
       }
     },
-    "blocks": ["submenu#category__oneDesktop"]
+    "blocks": ["submenu#menu-item"]
   },
   "menu-item#department__Movilidad": {
+    "title": "Menu item movilidad",
     "props": {
       "id": "category-ne",
       "type": "custom",
@@ -69,9 +75,10 @@
         "text": "Movilidad"
       }
     },
-    "blocks": ["submenu#category__oneDesktop"]
+    "blocks": ["submenu#menu-item"]
   },
   "menu-item#department__Fitness": {
+    "title": "Menu item fitness",
     "props": {
       "id": "category-ne",
       "type": "custom",
@@ -84,9 +91,10 @@
         "text": "Fitness & Lifestyle"
       }
     },
-    "blocks": ["submenu#category__oneDesktop"]
+    "blocks": ["submenu#menu-item"]
   },
   "menu-item#department__Juguetes": {
+    "title": "Menu item juguetes",
     "props": {
       "id": "category-ne",
       "type": "custom",
@@ -99,9 +107,10 @@
         "text": "Gadgest y juguetes"
       }
     },
-    "blocks": ["submenu#category__oneDesktop"]
+    "blocks": ["submenu#menu-item"]
   },
   "menu-item#department__Audio": {
+    "title": "Menu item audio",
     "props": {
       "id": "category-ne",
       "type": "custom",
@@ -114,9 +123,10 @@
         "text": "Audio"
       }
     },
-    "blocks": ["submenu#category__oneDesktop"]
+    "blocks": ["submenu#menu-item"]
   },
   "menu-item#department__Todo": {
+    "title": "Menu item Ver todo",
     "props": {
       "id": "category-ne",
       "type": "custom",

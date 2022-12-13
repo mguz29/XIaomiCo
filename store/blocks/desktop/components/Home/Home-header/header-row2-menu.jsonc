@@ -1,5 +1,6 @@
 {
   "header-row#2-menu-desktop": {
+    "title": "Fila dos header",
     "props": {
       "blockClass": "row1--logo",
       "verticalAlign": "middle"
@@ -7,6 +8,7 @@
     "children": ["logo", "header-spacer", "menu#header-menu--desktop"]
   },
   "logo": {
+    "title": "Logo",
     "props": {
       "blockClass": "logoHeader",
       "title": "Logo",

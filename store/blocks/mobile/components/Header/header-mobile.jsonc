@@ -38,7 +38,6 @@
   "header-row#2-mobile": {
     "children": [
       "drawer#header__mobile--menu",
-
       "drawer#header__mobile-search",
       "minicart.v2",
       "login"
@@ -48,17 +47,13 @@
     }
   },
   "drawer#header__mobile-search": {
-    "children": ["menu#header-search"],
+    "children": ["flex-layout.row#drawer-search--bar-mobile"],
+    "blocks": ["drawer-trigger#header-mobile--search"],
     "props": {
       "blockClass": "search-drawer-mobile",
       "isFullWidth": true
     }
   },
-  // "icon#drawer": {
-  //   "props": {
-  //     "id": "vuitg-search"
-  //   }
-  // },
   "flex-layout.row#drawer-search--bar-mobile": {
     "children": ["flex-layout.col#drawer-search--bar-mobile"]
   },
@@ -66,30 +61,18 @@
     "children": ["search-bar#header__searchMobile"]
   },
   "search-bar#header__searchMobile": {
-    //   "blocks": ["autocomplete-result-list.v2"],
     "props": {
       "placeholder": "Buscar producto",
       "openAutocompleteOnFocus": true
     }
   },
-  "menu#header-search": {
-    "children": ["menu-item#search-bar"]
+  "drawer-trigger#header-mobile--search": {
+    "children": ["icon#drawer-search"]
   },
-  "menu-item#search-bar": {
+  "icon#drawer-search": {
     "props": {
-      "type": "custom",
-      "highlight": false,
-      // "itemProps": {
-      //   "type": "internal",
-      //   "href": "#",
-      //   "noFollow": false,
-      //   "tagTitle": "Shop"
-      // },
-      "iconProps": {
-        "id": "vuitg-search"
-      }
+      "id": "vuitg-search"
     }
-    // "blocks": ["flex-layout.row#drawer-search--bar-mobile"] // Defining a submenu
   },
 
   "login": {
@@ -135,24 +118,9 @@
     "blocks": ["submenu.accordion#category__one"]
   },
   "submenu.accordion#category__one": {
-    "children": ["menu#department__one"]
+    "children": ["flex-layout.row#product-menu-slider--mobile"]
   },
-  "menu#department__one": {
-    "children": ["slider-layout#home__slider--children"]
-  },
-  //   "menu-item#category__one": {
-  //     "props": {
-  //       "id": "category-one",
-  //       "type": "custom",
-  //       "itemProps": {
-  //         "type": "external",
-  //         "href": "/",
-  //         "noFollow": true,
-  //         "tagTitle": "Google Drive",
-  //         "text": "xiaomi mi 11lite"
-  //       }
-  //     }
-  //   },
+
   "menu-item#department__two": {
     "props": {
       "id": "category-ne",
@@ -164,7 +132,8 @@
         "tagTitle": "google title",
         "text": "Hogar conectado"
       }
-    }
+    },
+    "blocks": ["submenu.accordion#category__one"]
   },
   "menu-item#department__three": {
     "props": {
@@ -177,7 +146,8 @@
         "tagTitle": "google title",
         "text": "Movilidad"
       }
-    }
+    },
+    "blocks": ["submenu.accordion#category__one"]
   },
   "menu-item#department__four": {
     "props": {
@@ -190,7 +160,8 @@
         "tagTitle": "google title",
         "text": "Fitness & Lifestyle"
       }
-    }
+    },
+    "blocks": ["submenu.accordion#category__one"]
   },
   "menu-item#department__five": {
     "props": {
@@ -203,7 +174,8 @@
         "tagTitle": "google title",
         "text": "Gadgest y juguetes"
       }
-    }
+    },
+    "blocks": ["submenu.accordion#category__one"]
   },
   "menu-item#department__six": {
     "props": {
@@ -216,7 +188,8 @@
         "tagTitle": "google title",
         "text": "Audio"
       }
-    }
+    },
+    "blocks": ["submenu.accordion#category__one"]
   },
   "menu-item#department__seven": {
     "props": {

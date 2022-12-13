@@ -1,0 +1,16 @@
+{
+  "flex-layout.row#footer__containter-info": {
+    "children": [
+      "flex-layout.col#footer__container--col-section--soporte",
+      "flex-layout.col#footer__container--col-seccion-sobre-nosotros",
+      "flex-layout.col#footer__container--col-seccion-redes-sociales",
+      "flex-layout.col#footer__container--col-four",
+      "flex-layout.col#footer__container--col-seccion-informacion"
+    ],
+    "props": {
+      "blockClass": "FooterContainer"
+    }
+  },
+
+  "flex-layout.col#footer__container--col-four": {}
+}

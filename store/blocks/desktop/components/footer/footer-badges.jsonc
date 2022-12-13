@@ -1,8 +1,11 @@
 {
   "flex-layout.row#footer__footer-badges": {
+    "title": "Contenedor de filas Bagdes",
     "children": ["flex-layout.row#footer__badges"]
   },
+  //fila Contenedor de insignias
   "flex-layout.row#footer__badges": {
+    "title": "fila Contenedor de insignias",
     "children": [
       "flex-layout.col#footer__badges--changes",
       "flex-layout.col#footer__badges--store",
@@ -12,16 +15,17 @@
       "blockClass": "footer--badges"
     }
   },
+  // Insignia de cambios
   "flex-layout.col#footer__badges--changes": {
+    "title": "Contenedor Infocard Changes",
     "children": ["info-card#changes"]
   },
   "info-card#changes": {
+    "title": "Infocard Insignia de Cambios",
     "props": {
       "id": "info-card-example",
       "isFullModeStyle": false,
       "callToActionMode": "none",
-      // "callToActionText": "DISCOVER",
-      // "callToActionUrl": "/sale/d",
       "textPosition": "right",
       "imageUrl": "assets/img/devoluciones2_footer.png",
       "headline": "Cambios y devoluciones",
@@ -30,16 +34,16 @@
       "textAlignment": "center"
     }
   },
+  // Insignia de Mejor tienda
   "flex-layout.col#footer__badges--store": {
     "children": ["info-card#store"]
   },
   "info-card#store": {
+    "title": "Infocard Insignia de Mejor tienda",
     "props": {
       "id": "info-card-example",
       "isFullModeStyle": false,
       "callToActionMode": "none",
-      // "callToActionText": "DISCOVER",
-      // "callToActionUrl": "/sale/d",
       "textPosition": "right",
       "imageUrl": "assets/img/LogoXiaominfocard.webp",
       "headline": "La tienda en Colombia",
@@ -48,17 +52,16 @@
       "textAlignment": "center"
     }
   },
-
+  // Insignia de Compra segura
   "flex-layout.col#footer__badges--buy": {
     "children": ["info-card"]
   },
   "info-card": {
+    "title": "Infocard Insignia de Compra segura",
     "props": {
       "id": "info-card-example",
       "isFullModeStyle": false,
       "callToActionMode": "none",
-      // "callToActionText": "DISCOVER",
-      // "callToActionUrl": "/sale/d",
       "textPosition": "right",
       "imageUrl": "assets/img/logoCompraSegura.png",
       "headline": "Compra segura siempre",

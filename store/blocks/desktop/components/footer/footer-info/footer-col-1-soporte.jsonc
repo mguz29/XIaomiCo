@@ -1,0 +1,28 @@
+{
+  //Columna uno, Seccion Soporte usuario
+  "flex-layout.col#footer__container--col-section--soporte": {
+    "title": " Columna Seccicon Soporte usuario",
+    "props": {
+      "blockClass": "footer__col--one",
+      "width": "18%"
+    },
+    "children": [
+      "flex-layout.col#footer__title--soporte",
+      "flex-layout.col#footer__menu--soporte"
+    ]
+  },
+  "flex-layout.col#footer__title--soporte": {
+    "title": "Columna soporte",
+    "children": ["rich-text#footer__soporte"]
+  },
+  "rich-text#footer__soporte": {
+    "title": "Titulo Columna soporte",
+    "props": {
+      "text": "SOPORTE",
+      "blockClass": "footer--title-soporte"
+    }
+  },
+  "flex-layout.col#footer__menu--soporte": {
+    "children": ["menu#soporte"]
+  }
+}

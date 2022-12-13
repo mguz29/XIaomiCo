@@ -1,21 +1,21 @@
 {
   "flex-layout.row#product-menu-slider": {
     "children": [
-      "flex-layout.col#product-menu-slider2",
-      "flex-layout.col#product-menu-slider",
-      "flex-layout.col#product-menu-slider3"
+      "flex-layout.col#product-menu-section-two",
+      "flex-layout.col#product-menu-section-one-products",
+      "flex-layout.col#product-menu-section-three"
     ],
     "props": {
       "fullWidth": true,
       "blockClass": "Container-slider-product"
     }
   },
-  "flex-layout.col#product-menu-slider2": {
+  "flex-layout.col#product-menu-section-two": {
     "props": {
       "width": "50%"
     }
   },
-  "flex-layout.col#product-menu-slider3": {
+  "flex-layout.col#product-menu-section-three": {
     "children": ["rich-text#menu-mas"],
     "props": {
       "blockClass": "contenedor-menu-mas",
@@ -23,13 +23,14 @@
     }
   },
   "rich-text#menu-mas": {
+    "title": "Enlace ver mas",
     "props": {
       "blockClass": "texto-ver-mas",
       "text": "[Más](/electrodomesticos)",
       "href": "/electrodomesticos"
     }
   },
-  "flex-layout.col#product-menu-slider": {
+  "flex-layout.col#product-menu-section-one-products": {
     "children": ["list-context.product-list#dproduct-menu"],
     "props": {
       "width": "250%"
@@ -61,6 +62,7 @@
     }
   },
   "product-summary-price#price-header": {
+    "title": "Precio de los productos",
     "props": {
       "blockClass": "header--product-price"
     }
@@ -69,7 +71,7 @@
     "children": ["slider-layout#home__header-products--children"]
   },
   "slider-layout#home__header-products--children": {
-    "title": "Slider con hijos declaradors",
+    "title": "Slider con hijos declarados productos header",
     "props": {
       "maxWidth": "1260px",
       "margin": "auto",

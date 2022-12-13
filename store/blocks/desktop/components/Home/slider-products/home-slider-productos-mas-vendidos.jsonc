@@ -1,14 +1,24 @@
 {
+  "responsive-layout.desktop#products--home": {
+    "title": "Contenedor vitrinas Home",
+    "children": [
+      "flex-layout.row#productos--home-mas--vendidos",
+      "flex-layout.row#productos--home-recomendados"
+    ]
+  },
   "flex-layout.row#productos--home-mas--vendidos": {
     "title": "Vitrina de Productos mas Vendidos",
-    "children": ["flex-layout.col#productos--estrellas"]
+    "children": ["flex-layout.col#productos--estrellas"],
+    "props": {
+      "blockClass": "prueba-de-seccion-hola"
+    }
   },
   "flex-layout.col#productos--estrellas": {
     "children": ["list-context.product-list#home-productos-mas-vendidos"]
   },
   "list-context.product-list#home-productos-mas-vendidos": {
     "title": "Vitrina de Productos mas Vendidos",
-    "blocks": ["product-summary.shelf#demo1"],
+    "blocks": ["product-summary.shelf#home"],
     "children": [
       "flex-layout.row#title-productos--estrellas",
       "flex-layout.row#slider-productos--estrellas"
@@ -17,35 +27,12 @@
       "blockClass": "list-context--container-slider"
     }
   },
-  "product-summary.shelf#demo1": {
-    "title": "summary products slider home",
-    "children": [
-      "product-summary-image#product",
-      "product-summary-name",
-      "product-summary-price#product-desktop"
-    ]
-  },
-  "product-summary-image#product": {
-    "props": {
-      "showBadge": true,
-      "height": 150
-    }
-  },
-  "product-summary-name": {
-    "props": {
-      "blockClass": "product-summary--name"
-    }
-  },
-  "product-summary-price#product-desktop": {
-    "props": {
-      "blockClass": "HomeDatatricks"
-    }
-  },
+
   "flex-layout.row#title-productos--estrellas": {
     "children": ["rich-text#title-productos--estrellas"]
   },
   "flex-layout.row#slider-productos--estrellas": {
-    "children": ["responsive-layout.desktop#products"],
+    "children": ["slider-layout#home__sliderProducts--children"],
     "props": {
       "blockClass": "slider-productos-estrellas"
     }
@@ -57,9 +44,9 @@
     }
   },
 
-  "responsive-layout.desktop#products": {
-    "children": ["slider-layout#home__sliderProducts--children"]
-  },
+  // "responsive-layout.desktop#products": {
+  //   "children": ["slider-layout#home__sliderProducts--children"]
+  // },
 
   "slider-layout#home__sliderProducts--children": {
     "title": "Slider con hijos declaradors",
@@ -76,7 +63,7 @@
       "infinite": true,
       "blockClass": "home__slider--products",
       "autoplay": {
-        "timeout": 3000,
+        "timeout": 300000000000000,
         "stopOnHover": true
       }
     }

@@ -1,0 +1,26 @@
+{
+  "product-summary.shelf#home": {
+    "title": "summary products slider home",
+    "children": [
+      "product-summary-image#product",
+      "product-summary-name",
+      "product-summary-price#product-desktop"
+    ]
+  },
+  "product-summary-image#product": {
+    "props": {
+      "showBadge": true,
+      "height": 150
+    }
+  },
+  "product-summary-name": {
+    "props": {
+      "blockClass": "product-summary--name"
+    }
+  },
+  "product-summary-price#product-desktop": {
+    "props": {
+      "blockClass": "HomeDatatricks"
+    }
+  }
+}

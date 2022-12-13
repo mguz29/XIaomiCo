@@ -60,8 +60,6 @@
       "id": "info-card-example",
       "isFullModeStyle": false,
       "callToActionMode": "none",
-      // "callToActionText": "DISCOVER",
-      // "callToActionUrl": "/sale/d",
       "textPosition": "right",
       "imageUrl": "assets/img/logoCompraSegura.png",
       "headline": "Compra segura siempre",

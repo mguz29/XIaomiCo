@@ -1,0 +1,59 @@
+{
+  // Columna tres, Seccion informacion de contacto
+  "flex-layout.col#footer__container--col-seccion-informacion": {
+    "title": "Columna cinco, Seccion Informacion de contacto",
+    "props": {
+      "blockClass": "footer__col--five"
+    },
+    "children": [
+      "flex-layout.col#footer__section__info",
+      "flex-layout.col#footer__section__info--payments"
+    ]
+  },
+  "flex-layout.col#footer__section__info": {
+    "children": [
+      "flex-layout.col#footer__section__numero-contacto",
+      "flex-layout.col#footer__section__horario-atencion",
+      "flex-layout.col#footer__section__email-contacto"
+    ]
+  },
+  "flex-layout.col#footer__section__numero-contacto": {
+    "title": "Columna Numero de contacto",
+    "children": ["rich-text#footer__numero--celular"]
+  },
+  "rich-text#footer__numero--celular": {
+    "title": "Numero de contacto",
+    "props": {
+      "blockClass": "footer-menu-item-tel",
+      "text": "57 1381 2897"
+    }
+  },
+  "flex-layout.col#footer__section__horario-atencion": {
+    "title": "Columna Horario",
+    "children": ["rich-text#footer__horario"]
+  },
+  "rich-text#footer__horario": {
+    "title": "Horario",
+    "props": {
+      "blockClass": "footer-menu-item",
+      "text": "Lun.-Vie. 8:00-18:00, Sab. 8:00-16:00"
+    }
+  },
+  "flex-layout.col#footer__section__email-contacto": {
+    "title": "Columna Email de contacto",
+    "children": ["rich-text#footer__email"]
+  },
+  "rich-text#footer__email": {
+    "title": "Email de contacto",
+    "props": {
+      "blockClass": "footer-menu-button",
+      "text": "HOLA@XIAOMI-STORE.CO"
+    }
+  },
+  "accepted-payment-methods": {
+    "title": "Metodos de pago aceptados",
+    "props": {
+      "paymentMethods": ["mastercard", "visa", "diners club"]
+    }
+  }
+}

@@ -16,6 +16,7 @@
     ]
   },
   "search-result-layout.desktop#department": {
+    "title": "Resultados de busqueda en Desktop",
     "children": [
       "flex-layout.row#departments",
       "search-title.v2",
@@ -27,18 +28,21 @@
     }
   },
   "flex-layout.row#departments": {
+    "title": "Columna Invisible",
     "children": ["rich-text#xd"],
     "props": {
       "blockClass": "flex-layout-rich--container"
     }
   },
   "rich-text#xd": {
+    "title": "Texto Invisible",
     "props": {
       "text": "# perro",
       "blockClass": "rich-text#visibility-hidden"
     }
   },
   "flex-layout.row#department__breadcrumb": {
+    "title": "Fila con los filtros y miga de pan",
     "children": [
       "flex-layout.col#department__breadcrumb",
       "flex-layout.col#department__order--by"
@@ -48,9 +52,11 @@
     }
   },
   "flex-layout.col#department__breadcrumb": {
+    "title": "Miga de pan",
     "children": ["breadcrumb.search"]
   },
   "flex-layout.col#department__order--by": {
+    "title": "Columna Contenedor de filtros y ordenamientos",
     "children": ["total-products.v2", "order-by.v2"],
     "props": {
       "blockClass": "filters--search"

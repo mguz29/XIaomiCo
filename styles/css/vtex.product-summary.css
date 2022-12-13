@@ -41,6 +41,7 @@
   letter-spacing: normal;
   text-align: center;
   color: #1c1c1c;
+  padding: 0 5px;
 }
 .spacer {
   display: none;

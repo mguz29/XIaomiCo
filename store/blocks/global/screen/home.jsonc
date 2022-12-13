@@ -3,111 +3,75 @@
     "blocks": [
       "responsive-layout.desktop",
       "responsive-layout.mobile",
-      // "list-context-bullet-group",
       "whatsapp-button"
     ]
   },
-  "responsive-layout.desktop": {
-    "title": "Contenedor Home Componentes Desktop",
-    "children": [
-      "responsive-layout.desktop#slider-principal",
-      "flex-layout.row#home__section--ofertas",
-      "flex-layout.row#home__section--banner",
-      "responsive-layout.desktop#products--home",
-      "responsive-layout.desktop#productos-estrella--home",
-      "flex-layout.row#home__section--bannerSecundario"
-    ]
-  },
-  "responsive-layout.mobile": {
-    "title": "Contenedor Home Componentes Mobile",
-    "children": [
-      "responsive-layout.mobile#slider-principal-mobile",
-      "flex-layout.row#home__section--ofertas",
-      "flex-layout.row#home__section--banner",
-      "responsive-layout.mobile#products--home",
-      "responsive-layout.mobile#productos-estrella--home",
-      "flex-layout.row#home__section--bannerSecundario"
-    ]
-  },
+
   "whatsapp-button": {
     "props": {
       "logo": "assets/img/whatsappLogo.png",
       "phone": "3223313799",
       "message": "hola.."
     }
+  },
+  "list-context-bullet-group": {
+    "title": "Mi contexto de lista Bullets",
+    "children": ["slider-layout#bullet-group"],
+    "props": {
+      "bullets": [
+        {
+          "image": "assets/img/Bullets/celular.png",
+          "titleBullet": "Smartphones",
+          "link": {
+            "url": "./electrodomesticos"
+          }
+        },
+        {
+          "image": "assets/img/Bullets/Robot-limpiador.png",
+          "titleBullet": "Hogar",
+          "link": {
+            "url": "./madera"
+          }
+        },
+        {
+          "image": "assets/img/Bullets/scooter.png",
+          "titleBullet": "Movilidad",
+          "link": {
+            "url": "./queso"
+          }
+        },
+        {
+          "image": "assets/img/Bullets/reloj-fitness.png",
+          "titleBullet": "Lifestyle",
+          "link": {
+            "url": "./mujer"
+          }
+        },
+        {
+          "image": "assets/img/Bullets/Bolso-gadgets.png",
+          "titleBullet": "Juguetes",
+          "link": {
+            "url": "./notebook"
+          }
+        },
+        {
+          "image": "assets/img/Bullets/audifonos-audio.png",
+          "titleBullet": "Audio",
+          "link": {
+            "url": "./notebook"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#bullet-group": {
+    "props": {
+      "itemsPorPage": {
+        "desktop": 5,
+        "tablet": 5,
+        "mobile": 5
+      },
+      "infinite": true
+    }
   }
-  // "list-context-bullet-group": {
-  //   "title": "Mi contexto de lista Bullets",
-  //   "children": ["slider-layout#bullet-group"],
-  //   "props": {
-  //     "bullets": [
-  //       {
-  //         "image": "mijuego.png",
-  //         "titleBullet": "Computadores",
-  //         "link": {
-  //           "url": "./"
-  //         }
-  //       },
-  //       {
-  //         "image": "mi-ropa.png",
-  //         "titleBullet": "perro",
-  //         "link": {
-  //           "url": "./"
-  //         }
-  //       },
-  //       {
-  //         "image": "assets/img/videojuegos.jpg",
-  //         "titleBullet": "Computadores",
-  //         "link": {
-  //           "url": "./"
-  //         }
-  //       },
-  //       {
-  //         "image": "assets/img/videojuegos.jpg",
-  //         "titleBullet": "perros",
-  //         "link": {
-  //           "url": "./"
-  //         }
-  //       },
-  //       {
-  //         "image": "assets/img/videojuegos.jpg",
-  //         "titleBullet": "Computadores",
-  //         "link": {
-  //           "url": "./"
-  //         }
-  //       },
-  //       {
-  //         "image": "mi-ropa.png",
-  //         "titleBullet": "Ropa",
-  //         "link": {
-  //           "url": "./"
-  //         }
-  //       },
-  //       {
-  //         "image": "assets/img/videojuegos.jpg",
-  //         "titleBullet": "Computadores",
-  //         "link": {
-  //           "url": "./"
-  //         }
-  //       },
-  //       {
-  //         "image": "mi-ropa.png",
-  //         "titleBullet": "Ropa",
-  //         "link": {
-  //           "url": "./"
-  //         }
-  //       }
-  //     ]
-  //   }
-  // },
-  // "slider-layout#bullet-group": {
-  //   "props": {
-  //     "itemsPorPage": {
-  //       "desktop": 5,
-  //       "tablet": 5,
-  //       "mobile": 5
-  //     },
-  //     "infinite": true
-  //   }
-  // }
 }

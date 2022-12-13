@@ -8,7 +8,7 @@
   },
   "list-context.product-list#productos-recomendados": {
     "title": "Vitrina de Productos Recomendados",
-    "blocks": ["product-summary.shelf#recomendados"],
+    "blocks": ["product-summary.shelf#home"],
     "children": [
       "flex-layout.row#title-recomendados",
       "flex-layout.row#slider-recomendados-para-ti"
@@ -17,30 +17,11 @@
       "blockClass": "list-context--container-slider"
     }
   },
-  "product-summary.shelf#recomendados": {
-    "title": "summary products slider home",
-    "children": [
-      "product-summary-image#product-recomendado",
-      "product-summary-name#product-recomendado",
-      "product-summary-price#product-desktop"
-    ]
-  },
-  "product-summary-image#product-recomendado": {
-    "props": {
-      "showBadge": true,
-      "height": 150
-    }
-  },
-  "product-summary-name#product-recomendado": {
-    "props": {
-      "blockClass": "product-summary--name"
-    }
-  },
   "flex-layout.row#title-recomendados": {
     "children": ["rich-text#title-productos--recomendados"]
   },
   "flex-layout.row#slider-recomendados-para-ti": {
-    "children": ["responsive-layout.desktop#productos-recomendados"],
+    "children": ["slider-layout#home__sliderProducts--recomendados"],
     "props": {
       "blockClass": "slider-productos-estrellas"
     }
@@ -50,10 +31,6 @@
       "blockClass": "title--slider-products",
       "text": "RECOMENDADOS PARA TI"
     }
-  },
-
-  "responsive-layout.desktop#productos-recomendados": {
-    "children": ["slider-layout#home__sliderProducts--recomendados"]
   },
 
   "slider-layout#home__sliderProducts--recomendados": {

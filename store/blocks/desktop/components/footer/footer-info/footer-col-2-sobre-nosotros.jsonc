@@ -1,0 +1,18 @@
+{
+  //Columna dos Seccion Sobre nosotros
+  "flex-layout.col#footer__container--col-seccion-sobre-nosotros": {
+    "title": "Columna dos, Seccion Sobre nosotros",
+    "props": {
+      "blockClass": "footer__col--two",
+      "width": "14%"
+    },
+    "children": ["rich-text#sobre__nosotros", "menu#sobre__nosotros"]
+  },
+  "rich-text#sobre__nosotros": {
+    "title": "Titulo Sobre nosotros",
+    "props": {
+      "text": "SOBRE NOSOTROS",
+      "blockClass": "footer--title-soporte"
+    }
+  }
+}
