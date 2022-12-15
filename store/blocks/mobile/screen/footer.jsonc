@@ -1,5 +1,6 @@
 {
   "footer-layout.mobile": {
+    "title":"Footer Mobile",
     "children": [
       "flex-layout.row#footer__footer-badges",
       "flex-layout.row#footer__newsletter--mobile",

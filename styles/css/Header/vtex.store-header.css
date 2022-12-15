@@ -142,3 +142,12 @@
 .headerStickyRow--header--container-logo {
   box-shadow: 0 4px 5px rgb(0 0 0 / 90%);
 }
+
+.headerRowContentContainer--header__drawerContainer--bottom {
+  padding-right: 0px !important;
+  padding-left : 0px !important;
+}
+
+.headerRowContainer--header__drawerContainer--bottom {
+  padding-left: 0px !important;
+}
