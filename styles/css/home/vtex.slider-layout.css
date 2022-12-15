@@ -1,3 +1,86 @@
+.sliderLayoutContainer--home__slider {
+  max-width: 100%;
+  margin   : 0 auto 30px;
+}
+
+.paginationDotsContainer--home__slider {
+  display: none;
+}
+
+.imageElement--home__slider {
+  max-height: initial !important;
+}
+
 .slide--home__slider--productos--recomendados {
   padding: 12px;
+}
+
+.slideChildrenContainer--home__slider--products {
+  background-color: #fff;
+}
+
+.slideChildrenContainer--home__slider--products:hover {
+  box-shadow: 0 10px 10px 0 rgb(0 0 0 / 51%);
+  transition: all 0.5s ease-in;
+}
+
+.slide--home__slider--products {
+  /* margin: 0 0.7%;
+  background-color: #fff; */
+  padding: 12px;
+}
+
+.sliderTrack--home__slider--products {
+  padding-bottom: 2rem;
+}
+
+.caretIcon--home__slider--products {
+  display: none;
+}
+
+/* .slide--home__slider--products-mobile {
+  background-color: rgb(255, 0, 0);
+  width: 9% !important;
+  margin: 12px;
+}
+.sliderRightArrow--home__slider--products-mobile {
+  display: none;
+}
+.sliderLeftArrow--home__slider--products-mobile {
+  display: none;
+}
+.sliderLayoutContainer--home__slider--products-mobile {
+  padding-bottom: 2.5rem;
+} */
+.paginationDotsContainer--home__slider--productos--recomendados {
+  display: none;
+}
+
+.slide--home__slider--productos--recomendados {
+  /* width: 5% !important;
+  background-color: #fff; */
+  /* padding: 12px; */
+}
+
+.slideChildrenContainer--home__slider--productos--recomendados {
+  background-color: #fff;
+}
+
+.slideChildrenContainer--home__slider--productos--recomendados:hover {
+  box-shadow: 0 10px 10px 0 rgb(0 0 0 / 51%);
+  transition: all 0.5s ease-in;
+}
+
+.slide--home__slider--productos--recomendados-mobile {
+  background-color: #fff;
+  width           : 9% !important;
+  margin          : 12px;
+}
+
+.paginationDotsContainer--home__slider--productos--recomendados-mobile {
+  display: none;
+}
+
+.slide--home__slider--productos--recomendados-mobile :global(.vtex-product-summary-2-x-price_installmentContainer) {
+  display: none;
 }

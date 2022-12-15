@@ -1,0 +1,148 @@
+{
+  //slider principal
+  "responsive-layout.desktop#slider-principal": {
+    "children": ["slider-layout#home__slider--children"]
+  },
+
+  "slider-layout#home__slider--children": {
+    "title": "Slider con hijos declaradors",
+    "props": {
+      "maxWidth": "1260px",
+      "margin": "auto",
+      "width": "100%",
+
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 2
+      },
+      "infinite": true,
+      "blockClass": "home__slider",
+      "autoplay": {
+        "timeout": 4000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+      "image#home__slider--four",
+      "image#home__slider--one",
+      "image#home__slider--two",
+      "image#home__slider--three"
+    ]
+  },
+  //Slider Vitrinas Home
+  "responsive-layout.desktop#products--home": {
+    "title": "Contenedor vitrinas Home",
+    "children": [
+      "flex-layout.row#productos--home-mas--vendidos",
+      "flex-layout.row#productos--home-recomendados"
+    ]
+  },
+  "flex-layout.row#productos--home-mas--vendidos": {
+    "title": "Vitrina de Productos mas Vendidos",
+    "children": ["flex-layout.col#productos--estrellas"],
+    "props": {
+      "blockClass": "prueba-de-seccion-hola"
+    }
+  },
+  "flex-layout.col#productos--estrellas": {
+    "children": ["list-context.product-list#home-productos-mas-vendidos"]
+  },
+  "list-context.product-list#home-productos-mas-vendidos": {
+    "title": "Vitrina de Productos mas Vendidos",
+    "blocks": ["product-summary.shelf#home"],
+    "children": [
+      "flex-layout.row#title-productos--estrellas",
+      "flex-layout.row#slider-productos--estrellas"
+    ],
+    "props": {
+      "blockClass": "list-context--container-slider"
+    }
+  },
+
+  "flex-layout.row#title-productos--estrellas": {
+    "children": ["rich-text#title-productos--estrellas"]
+  },
+  "flex-layout.row#slider-productos--estrellas": {
+    "children": ["slider-layout#home__sliderProducts--children"],
+    "props": {
+      "blockClass": "slider-productos-estrellas"
+    }
+  },
+  "rich-text#title-productos--estrellas": {
+    "props": {
+      "blockClass": "title--slider-products",
+      "text": "PRODUCTOS MÁS VENDIDOS"
+    }
+  },
+  "slider-layout#home__sliderProducts--children": {
+    "title": "Slider con hijos declaradors",
+    "props": {
+      "maxWidth": "1260px",
+      "margin": "auto",
+      "width": "100%",
+
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "mobile": 1
+      },
+      "infinite": true,
+      "blockClass": "home__slider--products",
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      }
+    }
+  },
+  "flex-layout.row#productos--home-recomendados": {
+    "title": "Vitrina de Productos Recomendados",
+    "children": ["flex-layout.col#productos--recomendados"]
+  },
+  "flex-layout.col#productos--recomendados": {
+    "children": ["list-context.product-list#productos-recomendados"]
+  },
+  "list-context.product-list#productos-recomendados": {
+    "title": "Vitrina de Productos Recomendados",
+    "blocks": ["product-summary.shelf#home"],
+    "children": [
+      "flex-layout.row#title-recomendados",
+      "flex-layout.row#slider-recomendados-para-ti"
+    ],
+    "props": {
+      "blockClass": "list-context--container-slider"
+    }
+  },
+  "flex-layout.row#title-recomendados": {
+    "children": ["rich-text#title-productos--recomendados"]
+  },
+  "flex-layout.row#slider-recomendados-para-ti": {
+    "children": ["slider-layout#home__sliderProducts--recomendados"],
+    "props": {
+      "blockClass": "slider-productos-estrellas"
+    }
+  },
+  "rich-text#title-productos--recomendados": {
+    "props": {
+      "blockClass": "title--slider-products",
+      "text": "RECOMENDADOS PARA TI"
+    }
+  },
+
+  "slider-layout#home__sliderProducts--recomendados": {
+    "title": "Slider con hijos declaradors",
+    "props": {
+      "maxWidth": "1260px",
+      "margin": "auto",
+      "width": "100%",
+
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "mobile": 1
+      },
+      "infinite": true,
+      "blockClass": "home__slider--productos--recomendados"
+    }
+  }
+}

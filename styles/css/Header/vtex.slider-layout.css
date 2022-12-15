@@ -1,0 +1,19 @@
+.sliderLeftArrow--header__slider--products {
+  display: none;
+}
+
+.sliderRightArrow--header__slider--products {
+  display: none;
+}
+
+.paginationDotsContainer--header__slider--products {
+  display: none;
+}
+
+.paginationDotsContainer--header__slider--products-mobile {
+  display: none;
+}
+
+.paginationDot--isActive {
+  background-color: #ff3a3a;
+}

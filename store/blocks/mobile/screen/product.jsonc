@@ -3,8 +3,8 @@
     "children": [
       "flex-layout.row#product__info-mobile",
       "flex-layout.row#product__descriptions-mobile",
-      "flex-layout.row#productos--home-recomendados-mobile",
-      "product-images#prueba2"
+      "flex-layout.row#productos--home-recomendados-mobile"
+      // "product-images#prueba2"
       // "product-questions-and-answers",
       // "product-reviews"
     ]

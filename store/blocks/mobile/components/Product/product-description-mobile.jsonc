@@ -1,9 +1,0 @@
-{
-  "flex-layout.row#product__descriptions-mobile": {
-    "title": "descripcion y especificaciones del producto",
-    "children": ["product-description", "product-specifications"],
-    "props": {
-      "blockClass": "Contenedor-info--general-description-mobile"
-    }
-  }
-}

@@ -1,0 +1,36 @@
+.flexRow--container--collage-productos-estrellas {
+  max-width: 1260px;
+  width    : 100%;
+  margin   : 0 auto;
+}
+
+.flexRow--slider-productos-estrellas {
+  margin-bottom: 2rem;
+}
+
+.flexRow--slider-productos-estrellas {
+  max-width: 1260px;
+  width    : 100%;
+  margin   : 0 auto;
+}
+
+.flexRow--home__section--banner {
+  max-width: 1260px;
+  margin   : 0 auto;
+  padding  : 10px 9px;
+}
+
+.flexRow--contianer--collage-img-products {
+  margin : 0 auto;
+  padding: 10px 9px;
+}
+
+.flexRowContent--row_one-collage-products {
+  display: flex;
+}
+
+.flexRow--home__section--ofertas {
+  max-width: 1260px;
+  margin   : 0 auto;
+  width    : 100%;
+}

@@ -1,0 +1,71 @@
+{
+  "flex-layout.row#footer__containter-info": {
+    "children": [
+      "flex-layout.col#footer__container--col-section--soporte",
+      "flex-layout.col#footer__container--col-seccion-sobre-nosotros",
+      "flex-layout.col#footer__container--col-seccion-redes-sociales",
+      "flex-layout.col#footer__container--col-four",
+      "flex-layout.col#footer__container--col-seccion-informacion"
+    ],
+    "props": {
+      "blockClass": "FooterContainer"
+    }
+  },
+  //Columna uno, Seccion Soporte usuario
+  "flex-layout.col#footer__container--col-section--soporte": {
+    "title": " Columna Seccicon Soporte usuario",
+    "props": {
+      "blockClass": "footer__col--one",
+      "width": "auto"
+    },
+    "children": [
+      "flex-layout.col#footer__title--soporte",
+      "flex-layout.col#footer__menu--soporte"
+    ]
+  },
+  "flex-layout.col#footer__title--soporte": {
+    "title": "Columna soporte",
+    "children": ["rich-text#footer__soporte"]
+  },
+  "rich-text#footer__soporte": {
+    "title": "Titulo Columna soporte",
+    "props": {
+      "text": "SOPORTE",
+      "blockClass": "footer--title-soporte"
+    }
+  },
+  "flex-layout.col#footer__menu--soporte": {
+    "children": ["menu#soporte"]
+  },
+  //Columna dos Seccion Sobre nosotros
+  "flex-layout.col#footer__container--col-seccion-sobre-nosotros": {
+    "title": "Columna dos, Seccion Sobre nosotros",
+    "props": {
+      "blockClass": "footer__col--two",
+      "width": "15%"
+    },
+    "children": ["rich-text#sobre__nosotros", "menu#sobre__nosotros"]
+  },
+  "rich-text#sobre__nosotros": {
+    "title": "Titulo Sobre nosotros",
+    "props": {
+      "text": "SOBRE NOSOTROS",
+      "blockClass": "footer--title-soporte"
+    }
+  },
+  "flex-layout.col#footer__container--col-four": {},
+  // Columna tres, Seccion informacion de contacto
+  "flex-layout.col#footer__container--col-seccion-informacion": {
+    "title": "Columna cinco, Seccion Informacion de contacto",
+    "props": {
+      "blockClass": "footer__col--five"
+    },
+    "children": [
+      "flex-layout.col#footer__section__info",
+      "flex-layout.col#footer__section__info--payments"
+    ]
+  },
+  "flex-layout.col#footer__section__info": {
+    "children": ["flex-layout.row#footer__info"]
+  }
+}

@@ -1,0 +1,17 @@
+.flexRow--minicart--summary {
+  box-shadow: 0 0 12px rgb(0 0 0 / 15%);
+}
+
+.flexRowContent--minicart--summary {
+  flex-direction: column;
+}
+
+.flexColChild--checkoit-button :global(.vtex-button) {
+  background-color: #f66602;
+  border-color    : #f66602;
+}
+
+.flexRow--col--Container-productlist {
+  padding-top   : 1.5rem;
+  padding-bottom: 1.5rem;
+}

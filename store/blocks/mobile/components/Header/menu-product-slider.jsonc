@@ -9,7 +9,6 @@
       "blockClass": "Container-slider-product-mobile"
     }
   },
-
   "flex-layout.col#product-menu-slider--mobile": {
     "children": ["list-context.product-list#dproduct-menu--mobile"],
     "props": {
@@ -20,9 +19,6 @@
     "title": "slider productos menu header",
     "blocks": ["product-summary.shelf#header-menu--mobile"],
     "children": ["flex-layout.row#slider-productos--header--mobile"]
-    // "props": {
-    //   "category": "1"
-    // }
   },
   "product-summary.shelf#header-menu--mobile": {
     "title": "summary products slider home",
@@ -60,18 +56,11 @@
       // "maxWidth": "1260px",
       // "margin": "auto",
       // "width": "100%",
-
       "itemsPerPage": {
         "desktop": 4,
         "tablet": 3,
         "mobile": 2
       },
-      // "autoplay": {
-      //   "stopOnHover": true,
-      //   "timeout": 3000
-      // },
-      // "infinite": true,
-
       "blockClass": "header__slider--products-mobile"
     }
   }

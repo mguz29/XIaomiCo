@@ -1,0 +1,22 @@
+.input {
+  background-color: transparent;
+  border          : none;
+  font-size       : 13.5px;
+  padding         : 10px;
+  font-weight     : 700;
+  font-stretch    : normal;
+  font-style      : normal;
+  max-width       : 208px;
+}
+
+.searchBarIcon--search {
+  display: none;
+}
+
+.vtex-input__suffix {
+  display: none;
+}
+
+.autoCompleteOuterContainer--header--section__one--serachbar {
+  border: solid red 2px;
+}

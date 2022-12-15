@@ -1,0 +1,19 @@
+{
+  //Texto pie de pagina
+  "flex-layout.row#footer__Copyright": {
+    "title": "Copyrigth pie de pagina",
+    "children": ["rich-text#footer--copyriht"],
+    "props": {
+      "marginBottom": 7,
+      "blockClass": "footer__section--creditos",
+      "fullWidth": true
+    }
+  },
+  "rich-text#footer--copyriht": {
+    "title": "Texto de pie de pagina",
+    "props": {
+      "blockClass": "footer-credits",
+      "text": "Copyright © 2022 Xiaomi. All Rights Reserved"
+    }
+  }
+}

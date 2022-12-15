@@ -1,0 +1,18 @@
+.quantitySelectorContainer--quantity-selector--productlist {
+  margin-top: 1rem;
+}
+
+.quantityDropdownContainer--quantity-selector--productlist {
+  width: 50%;
+}
+
+.productPrice--price-productlist {
+  margin-top: 1rem;
+}
+
+.productName {
+  color      : #878787;
+  font-weight: 500;
+  line-height: 1.5;
+  font-size  : 18px;
+}
