@@ -17,8 +17,6 @@
       "flex-layout.row#footer__info",
       "flex-layout.row#footer__payments",
       "flex-layout.row#footer__Copyright"
-
-      // "flex-layout.row#footer--credits"
     ],
     "props": {
       "blockClass": "container-info-contact--mobile",

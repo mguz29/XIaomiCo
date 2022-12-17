@@ -44,7 +44,7 @@
   "image#home__image": {
     "title": "imagen de Home",
     "props": {
-      "src": "assets/img/imagen home.jpg",
+      "src": "assets/img/Banners/img-banner-one-home.jpg",
       "title": "B2B Commerce",
       "blockClass": "home__image",
       "link": {
@@ -57,49 +57,44 @@
   "image#home__image--BannerSecundario": {
     "title": "Banner Home secundario ",
     "props": {
-      "src": "assets/img/bannerTerceario.png",
+      "src": "assets/img/Banners/img-banner-teo-home.webp",
       "title": "Banner Home Terceario",
       "blockClass": "home__image"
     }
   },
   "image#home__slider--one": {
     "props": {
-      "src": "assets/img/slide.jpg"
+      "src": "assets/img/Slider-Home/img-slider-two.gif"
     }
   },
   "image#home__slider--two": {
     "props": {
-      "src": "assets/img/slide2.jpg"
+      "src": "assets/img/Slider-Home/img-slider.gif"
     }
   },
   "image#home__slider--three": {
     "props": {
-      "src": "assets/img/slide3.jpg"
-    }
-  },
-  "image#home__slider--four": {
-    "props": {
-      "src": "assets/img/slider4.jpg"
+      "src": "assets/img/Slider-Home/slide3.jpg"
     }
   },
   "image#home__slider--one-mobile": {
     "props": {
-      "src": "assets/img/slidermobile.jpg"
+      "src": "assets/img/Slider-Home/mobile/slidermobile.jpg"
     }
   },
   "image#home__slider--two-mobile": {
     "props": {
-      "src": "assets/img/slidermobile.jpg"
+      "src": "assets/img/Slider-Home/mobile/slidermobile.jpg"
     }
   },
   "image#home__slider--three-mobile": {
     "props": {
-      "src": "assets/img/sliderMobile2.jpg"
+      "src": "assets/img/Slider-Home/mobile/sliderMobile2.jpg"
     }
   },
   "image#home__slider--four-mobile": {
     "props": {
-      "src": "assets/img/sliderMobile3.jpg"
+      "src": "assets/img/Slider-Home/mobile/sliderMobile3.jpg"
     }
   }
 }

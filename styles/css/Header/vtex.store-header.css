@@ -75,12 +75,6 @@
 }
 
 .headerRowBackground--row1--logo {
-  /* position: absolute;
-    z-index: 999;
-    padding-top: 15px;
-    width: 90%;
-    background-color: transparent;
-    margin-left: 90px; */
   padding         : 0 25px !important;
   width           : 100%;
   z-index         : 9;

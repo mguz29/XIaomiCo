@@ -48,9 +48,7 @@
     "children": [
       "product-summary-image",
       "product-rating-inline",
-
       "flex-layout.row#informacion-producto"
-      // +      "product-summary-buy-button"
     ],
     "props": {
       "blockClass": "Conatiner--summary"
@@ -67,7 +65,6 @@
     },
     "children": [
       "product-summary-name#search-desktop",
-      //  "product-summary-space",
       "product-summary-price#search-desktop"
     ]
   },

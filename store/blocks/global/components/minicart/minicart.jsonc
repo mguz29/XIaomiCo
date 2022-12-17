@@ -1,8 +1,6 @@
 {
   "minicart.v2": {
     "props": {
-      //   "quantityDisplay": "always",
-      //   "itemCountMode": "total"
       "blockClass": "minicart-header--mobile"
     },
 
@@ -34,8 +32,6 @@
     "children": [
       "flex-layout.col#minicart__summary",
       "flex-layout.col#minicart__checkout-button"
-      //"rich-text#promo",
-      // "minicart-checkout-button"
     ],
     "props": {
       "blockClass": "minicart--summary"

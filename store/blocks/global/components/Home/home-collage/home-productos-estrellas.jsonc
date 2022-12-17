@@ -39,7 +39,7 @@
   "flex-layout.row#row-one--collage-products": {
     "children": [
       "flex-layout.col#image--productos-estrellas",
-      "flex-layout.col#image--productos-estrellas"
+      "flex-layout.col#image--productos-estrellas2"
     ],
     "props": {
       "blockClass": "row_one-collage-products"
@@ -54,7 +54,19 @@
   "image#col-smart--band": {
     "props": {
       "blockClass": "images_estrella",
-      "src": "assets/img/productosEstrellas/miBand7.jpg"
+      "src": "assets/img/productosEstrellas/airFriyer.jpg"
+    }
+  },
+  "flex-layout.col#image--productos-estrellas2": {
+    "children": ["image#col-router"],
+    "props": {
+      "blockClass": "col_one-collage-products"
+    }
+  },
+  "image#col-router": {
+    "props": {
+      "blockClass": "images_estrella",
+      "src": "assets/img/productosEstrellas/router.webp"
     }
   },
   "flex-layout.row#row-two--collage-products": {
@@ -63,7 +75,7 @@
   "image#col-xiaomi--watch": {
     "props": {
       "blockClass": "images_estrella",
-      "src": "assets/img/productosEstrellas/xiaomiWatch.jpg"
+      "src": "assets/img/productosEstrellas/mi-robot.jpg"
     }
   }
 }

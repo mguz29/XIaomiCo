@@ -40,9 +40,6 @@
     "title": "slider productos menu header",
     "blocks": ["product-summary.shelf#header-menu"],
     "children": ["flex-layout.row#slider-productos--header"]
-    // "props": {
-    //   "category": "1"
-    // }
   },
   "product-summary.shelf#header-menu": {
     "title": "summary products slider home",

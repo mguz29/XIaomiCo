@@ -24,7 +24,6 @@
       }
     },
     "children": [
-      "image#home__slider--four",
       "image#home__slider--one",
       "image#home__slider--two",
       "image#home__slider--three"
