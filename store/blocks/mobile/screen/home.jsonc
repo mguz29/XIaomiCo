@@ -1,0 +1,14 @@
+{
+  "responsive-layout.mobile": {
+    "title": "Contenedor Home Componentes Mobile",
+    "children": [
+      "responsive-layout.mobile#slider-principal-mobile",
+      "list-context-bullet-group",
+      "flex-layout.row#home__section--ofertas",
+      "flex-layout.row#home__section--banner",
+      "responsive-layout.mobile#products--home",
+      "flex-layout.row#home--collage-products-mobile",
+      "flex-layout.row#home__section--bannerSecundario"
+    ]
+  }
+}

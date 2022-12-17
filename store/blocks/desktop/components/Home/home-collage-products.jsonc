@@ -1,0 +1,15 @@
+{
+  "flex-layout.row#home--collage-products": {
+    "title": "Collage Productos Estrella",
+    "children": ["flex-layout.col#home-col-container--collage-products"],
+    "props": {
+      "blockClass": "container--collage-productos-estrellas"
+    }
+  },
+  "flex-layout.col#home-col-container--collage-products": {
+    "children": [
+      "flex-layout.row#home--title-collage-products",
+      "flex-layout.row#home--collage-image-products"
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "store.search#department": {
+    "blocks": ["search-result-layout#department"],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip"
+      }
+    }
+  },
+  "search-result-layout#department": {
+    "blocks": [
+      "search-result-layout.desktop#department",
+      "search-result-layout.mobile#department",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop#department": {
+    "title": "Resultados de busqueda en Desktop",
+    "children": [
+      "flex-layout.row#departments",
+      "search-title.v2",
+      "flex-layout.row#department__breadcrumb",
+      "flex-layout.row#department__results"
+    ],
+    "props": {
+      "blockClass": "continer--breadcrumb-search"
+    }
+  },
+  "flex-layout.row#departments": {
+    "title": "Columna Invisible",
+    "children": ["rich-text#xd"],
+    "props": {
+      "blockClass": "flex-layout-rich--container"
+    }
+  },
+  "rich-text#xd": {
+    "title": "Texto Invisible",
+    "props": {
+      "text": "# perro",
+      "blockClass": "rich-text#visibility-hidden"
+    }
+  },
+  "flex-layout.row#department__breadcrumb": {
+    "title": "Fila con los filtros y miga de pan",
+    "children": [
+      "flex-layout.col#department__breadcrumb",
+      "flex-layout.col#department__order--by"
+    ],
+    "props": {
+      "blockClass": "container--filters"
+    }
+  },
+  "flex-layout.col#department__breadcrumb": {
+    "title": "Miga de pan",
+    "children": ["breadcrumb.search"]
+  },
+  "flex-layout.col#department__order--by": {
+    "title": "Columna Contenedor de filtros y ordenamientos",
+    "children": ["total-products.v2", "order-by.v2"],
+    "props": {
+      "blockClass": "filters--search"
+    }
+  },
+  "flex-layout.row#department__results": {
+    "title": "Department Results",
+    "children": ["search-content#desktop"],
+    "props": { "blockClass": "container-Search--content" }
+  },
+  "search-content#desktop": {
+    "blocks": ["gallery", "not-found"],
+    "props": { "blockClass": "Search--content" }
+  },
+  "gallery": {
+    "props": {
+      "layouts": [
+        {
+          "name": "general-grid",
+          "component": "GeneralGrid",
+          "itemsPerRow": {
+            "desktop": 4,
+            "mobile": 1,
+            "tablet": 2
+          }
+        }
+      ],
+      "GeneralGrid": "product-summary.shelf",
+      "blockClass": "asdasd"
+    }
+  }
+}

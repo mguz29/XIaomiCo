@@ -1,0 +1,88 @@
+{
+  // Columna tres, Seccion redes sociales
+  "flex-layout.col#footer__container--col-seccion-redes-sociales": {
+    "title": "Columna tres, Seccion redes sociales",
+    "children": [
+      "rich-text#title",
+      "flex-layout.col#footer__container--socialNetworks"
+    ],
+    "props": {
+      "blockClass": "footer__container--col-socials"
+    }
+  },
+  "rich-text#title": {
+    "title": " Titulo Redes sociales",
+    "props": {
+      "blockClass": "footer__title--section-socialNetworks",
+      "text": "SIGUENOS"
+    }
+  },
+  "flex-layout.col#footer__container--socialNetworks": {
+    "children": [
+      "flex-layout.row#footer__container--social-facebook",
+      "flex-layout.row#footer__container--social-instagram"
+    ]
+  },
+  "flex-layout.row#footer__container--social-facebook": {
+    "children": [
+      "flex-layout.col#footer__icon--facebook",
+      "rich-text#title--facebook"
+    ],
+    "props": {
+      "blockClass": "footer__container--social-facebook",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#footer__icon--facebook": {
+    "children": ["image#icon--facebook"],
+    "props": {
+      "blockClass": "footer__container--socialNetworks--icon-facebook"
+    }
+  },
+  "image#icon--facebook": {
+    "title": "Icono de Facebook footer",
+    "props": {
+      "blockClass": "footer__socialNetworks--icon-facebook",
+      "src": "assets/img/icon socialNetworks/facebook.webp",
+      "maxHeight": 16
+    }
+  },
+  "rich-text#title--facebook": {
+    "title": "Texto Facebook footer",
+    "props": {
+      "blockClass": "text-title--facebook",
+      "text": "Xiaomi Colombia"
+    }
+  },
+  "flex-layout.row#footer__container--social-instagram": {
+    "children": [
+      "flex-layout.col#footer__icon--instagram",
+      "rich-text#title--instagram"
+    ],
+    "props": {
+      "blockClass": "footer__container--social-instagram",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#footer__icon--instagram": {
+    "children": ["image#icon--instagram"],
+    "props": {
+      "blockClass": "footer__container--socialNetworks--icon-instagram"
+    }
+  },
+  "image#icon--instagram": {
+    "title": "Icono Instagram footer",
+    "props": {
+      "blockClass": "footer__socialNetworks--icon-instagram",
+      "src": "assets/img/icon socialNetworks/instagram.webp",
+      "maxHeight": 16
+    }
+  },
+  "rich-text#title--instagram": {
+    "title": "Texto Instagram footer",
+    "props": {
+      "blockClass": "text-title--instagram",
+      "text": "Xiaomi Colombia"
+    }
+  }
+}

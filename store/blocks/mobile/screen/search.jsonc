@@ -1,0 +1,9 @@
+{
+  "search-result-layout.mobile": {
+    "children": [
+      "search-title.v2#mobile",
+      "flex-layout.row#department__breadcrumb--mobile",
+      "flex-layout.row#department__results"
+    ]
+  }
+}

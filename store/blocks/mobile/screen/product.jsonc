@@ -1,0 +1,18 @@
+{
+  "responsive-layout.mobile#product-detail-page": {
+    "children": [
+      "flex-layout.row#product__info-mobile",
+      "flex-layout.row#product__descriptions-mobile",
+      "flex-layout.row#productos--home-recomendados-mobile"
+      // "product-images#prueba2"
+      // "product-questions-and-answers",
+      // "product-reviews"
+    ]
+  },
+  "product-images#prueba2": {
+    "props": {
+      // "blockClass": "product-images",
+      "thumbnailsOrientation": "vertical"
+    }
+  }
+}

@@ -1,9 +1,0 @@
-.label{
-    visibility: hidden;
-}
-
-.label::before {
-  content: " INICIAR SESION";
-  visibility: visible;
-  color: #a8a8a8;
-}

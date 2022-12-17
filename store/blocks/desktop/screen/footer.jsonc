@@ -1,26 +1,14 @@
 {
-  "footer": {
-    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
-  },
-  "footer-layout.desktop": { 
+  "footer-layout.desktop": {
+    "title": "Footer Desktop",
     "children": [
-      "flex-layout.row#footer"
-    ]
-  },
-  "footer-layout.mobile": { 
-    "children": [
-      "flex-layout.row#footer"
-    ]
-  },
-  "flex-layout.row#footer": { 
-    "children": [
-      "image"
-    ]
-  },
-  "image": {
+      "flex-layout.row#footer__footer-badges",
+      "flex-layout.row#footer__newsletter",
+      "flex-layout.row#footer__containter-info",
+      "flex-layout.row#footer__Copyright"
+    ],
     "props": {
-      "width": 100,
-      "src": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg"
+      "blockClass": "Footer-layout--container"
     }
   }
 }

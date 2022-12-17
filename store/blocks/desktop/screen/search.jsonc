@@ -1,7 +1,22 @@
 {
-  "store.search": {
-    "blocks": [
-      
+  "search-result-layout.desktop": {
+    "children": [
+      "flex-layout.row#departments",
+      "flex-layout.row#suggestion",
+      "flex-layout.row#department__breadcrumb",
+      "flex-layout.row#department__results"
     ]
+  },
+  "flex-layout.row#suggestion": {
+    "title": "Fila sugerencias de productos",
+    "children": ["search-suggestions#desktop"],
+    "props": {
+      "blockClass": "seccion-Sugerencias--productos"
+    }
+  },
+  "search-suggestions#desktop": {
+    "props": {
+      "blockClass": "sugerencias"
+    }
   }
 }

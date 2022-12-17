@@ -1,0 +1,19 @@
+{
+  "flex-layout.row#product__info-mobile": {
+    "title": "Informacion General de PDP",
+    "children": [
+      "flex-layout.col#product__info--image",
+      "flex-layout.col#product__info--data"
+    ],
+    "props": {
+      "blockClass": "Contenedor-info--general-mobile"
+    }
+  },
+  "flex-layout.row#product__descriptions-mobile": {
+    "title": "descripcion y especificaciones del producto",
+    "children": ["product-description", "product-specifications"],
+    "props": {
+      "blockClass": "Contenedor-info--general-description-mobile"
+    }
+  }
+}

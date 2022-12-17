@@ -1,0 +1,37 @@
+{
+  "search-result-layout.mobile#department": {
+    "children": [
+      "search-title.v2#mobile",
+      "flex-layout.row#department__breadcrumb",
+      "flex-layout.row#department__breadcrumb--mobile",
+      "flex-layout.row#department__results"
+    ],
+    "props": {
+      "blockClass": "continer--breadcrumb-search--mobile"
+    }
+  },
+  "search-title.v2#mobile": {
+    "props": {
+      "blockClass": "title--department"
+    }
+  },
+
+  "flex-layout.row#department__breadcrumb--mobile": {
+    "children": [
+      "flex-layout.col#department__breadcrumb--mobile",
+      "flex-layout.col#department__order--by--mobile"
+    ],
+    "props": {
+      "blockClass": "container--filters"
+    }
+  },
+  "flex-layout.col#department__breadcrumb--mobile": {
+    "children": ["breadcrumb.search"]
+  },
+  "flex-layout.col#department__order--by--mobile": {
+    "children": ["total-products.v2", "order-by.v2"],
+    "props": {
+      "blockClass": "filters--search--mobile"
+    }
+  }
+}

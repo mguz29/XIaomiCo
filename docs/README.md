@@ -1,10 +1,28 @@
-# Minimum Boilerplate Theme
+# Tienda en base a **Xiaomi-store.co**
 
-The minimum Boilerplate Theme is basic store front model based on the VTEX IO Store Framework.
+ Store-theme-Xioami fue desarrollada con la tecnologia de Vtex IO
+ 
+ La tienda a imitar en este caso fue https://www.xiaomi-store.co/ donde se replico cada uno de sus componentes, en cada una de las vistas disponibles (desktop, Mobile y Tablet)
 
-It should be used only when you want to start a new store theme without any pre-set configurations, as is the case with [Store Theme](https://github.com/vtex-apps/store-theme). 
+ ## **Recopilacion de Imagenes**
+### **Vista Desktop**
+#### Home 
+<br/>
+ 
+![Esta es una imagen de ejemplo](https://i.ibb.co/r7snDbC/Fire-Shot-Capture-005-marlon-itgloberspartnercl-myvtex-com.png") 
 
-While Store Theme gives developers a ready-to-go default store front structure, the Minimum Boilerplate Theme will enable you to build you store freely from scratch.
+### Product detail page
+![Imagen de Prodct Detail Page](https://i.ibb.co/3FCFQYQ/PDP.png)
+
+### Product list page
+![Imagen Product list page](https://i.ibb.co/3pRbKwR/PLP.png)
+
+### Minicart 
+![Imagen minicart](https://i.ibb.co/DkWHBKc/Minicart.png) 
+
+### Menu 
+![Imagen Menu](https://i.ibb.co/zSg1WcH/Menu.png)
+
 
 ## Configuration
 
@@ -60,3 +78,14 @@ Then time has come to upload all the changes you made in your local files to the
 If the process runs without any errors, the following message will be displayed: `App linked successfully`. Then, run the `vtex browse` command to open a browser window having your linked store in it.
 
 This will enable you to see the applied changes in real time, through the account and workspace in which you are working.
+
+## Workspace
+* https://marlon--itgloberspartnercl.myvtex.com/
+
+## Components Custom
+* https://github.com/mguz29/vuitg-whatsapp-buttom-xiaomi-storehttps://github.com/mguz29/vuitg-whatsapp-buttom-xiaomi-store
+
+* https://github.com/mguz29/vuitg-bullets-diagramation-xiaomi-store
+
+# Contributors
+1. Marlon Guzman Acosta

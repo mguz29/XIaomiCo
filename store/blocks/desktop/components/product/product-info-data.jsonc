@@ -1,0 +1,39 @@
+{
+  "flex-layout.row#product__breadcrumb": {
+    "title": "miga de pan PDP",
+    "props": {
+      "blockClass": "Contenedor-miga-pan"
+    },
+    "children": ["flex-layout.col#product__breadcrumb"]
+  },
+  "flex-layout.col#product__breadcrumb": {
+    "children": ["breadcrumb"]
+  },
+  "flex-layout.row#product__info": {
+    "title": "Informacion General de PDP",
+    "children": [
+      "flex-layout.col#product__info--image",
+      "flex-layout.col#product__info--data"
+    ],
+    "props": {
+      "blockClass": "Contenedor-info--general"
+    }
+  },
+  "flex-layout.row#product__descriptions": {
+    "title": "descripcion y especificaciones del producto",
+    "children": [
+      "flex-layout.row#descripcion-producto",
+      "flex-layout.col#product__especificaciones"
+    ],
+    "props": {
+      "blockClass": "Contenedor-info--general-description"
+    }
+  },
+
+  "flex-layout.row#descripcion-producto": {
+    "children": ["product-description"]
+  },
+  "flex-layout.col#product__especificaciones": {
+    "children": ["product-specifications"]
+  }
+}

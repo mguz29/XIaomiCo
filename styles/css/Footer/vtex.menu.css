@@ -1,0 +1,63 @@
+.menuItem--footer-menu-item-mobile {
+  border-bottom: 1px solid #616161;
+}
+
+.styledLinkContainer--footer-menu-item-mobile {
+  padding: 20px 0;
+}
+
+.styledLinkContent--footer-menu-item-mobile {
+  font-size     : 13px;
+  font-weight   : 300;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : 1.35;
+  letter-spacing: normal;
+  text-align    : left;
+  color         : #a8a8a8;
+}
+
+.styledLinkContent--footer__menuitem--soporte {
+  font-size     : 13px;
+  font-weight   : 300;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : 1.35;
+  letter-spacing: normal;
+  text-align    : left;
+  color         : #a8a8a8;
+}
+
+.styledLinkContent--footer__menuitem--soporte:hover {
+  color: #ff6900;
+}
+
+.styledLinkContent--footer__menu-item--sobre__nosotros {
+  font-size     : 13px;
+  font-weight   : 300;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : 1.35;
+  letter-spacing: normal;
+  text-align    : left;
+  color         : #a8a8a8;
+}
+
+.styledLinkContent--footer__menu-item--sobre__nosotros:hover {
+  color: #ff6900;
+}
+
+.styledLinkContent--footer__menu-item--siguenos {
+  font-size     : 13px;
+  font-weight   : 300;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : 1.35;
+  letter-spacing: normal;
+  text-align    : left;
+  color         : #a8a8a8;
+}
+
+.styledLinkContent--footer__menu-item--siguenos:hover {
+  color: #ff6900;
+}

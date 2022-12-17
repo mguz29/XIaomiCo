@@ -1,0 +1,104 @@
+.buyButtonText--boton-compra {
+  font-size: 0;
+}
+
+.buyButtonText--boton-compra::before {
+  content  : "Comprar ahora";
+  display  : block;
+  font-size: 1rem;
+}
+
+.productDescriptionText {
+  color      : #1c1c1c;
+  font-size  : 85%;
+  font-weight: 400;
+}
+
+.specificationsTitle {
+  font-size     : 24.5px;
+  font-weight   : 400;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : 1.35;
+  letter-spacing: normal;
+  text-align    : left;
+  color         : #1c1c1c;
+}
+
+.productDescriptionTitle {
+  font-size     : 24.5px;
+  font-weight   : 400;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : 1.35;
+  letter-spacing: normal;
+  text-align    : left;
+  color         : #1c1c1c;
+}
+
+.skuSelectorName {
+  font-size     : 19px;
+  font-weight   : 400;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : 1.82;
+  letter-spacing: normal;
+  text-align    : left;
+  color         : #1c1c1c;
+}
+.price_listPriceLabel {
+  display: none;
+}
+
+.price_sellingPriceLabel {
+  display: none;
+}
+
+.specificationItemProperty {
+  font-size : 19px;
+  text-align: left;
+  color     : #1c1c1c;
+}
+.productImagesGallerySwiperContainer--product-images {
+  display: none;
+}
+.productImagesContainer--product-images--carousel {
+  max-width: 1260px;
+  margin   : 0 auto;
+  width    : 100%;
+}
+
+.productImagesThumb--product-images {
+  height: 400px !important;
+  width : 33% !important;
+}
+
+.carouselGaleryThumbs--product-images .swiper-wrapper {
+  justify-content: space-between !important;
+}
+.productNameContainer {
+  padding-bottom: 30px;
+}
+.productBrand--nombre-producto {
+  font-size     : 45px;
+  font-weight   : 400;
+  font-stretch  : normal;
+  font-style    : normal;
+  letter-spacing: normal;
+  text-align    : left;
+  color         : #1c1c1c important !;
+  text-transform: uppercase;
+}
+.price_sellingPrice--price-primary-pdp {
+  font-size     : 19px;
+  font-weight   : 400;
+  font-stretch  : normal;
+  font-style    : normal;
+  letter-spacing: normal;
+  text-align    : left;
+  color         : #ff6900;
+}
+
+.price_listPriceContainer--price-primary-pdp {
+  display: none;
+}

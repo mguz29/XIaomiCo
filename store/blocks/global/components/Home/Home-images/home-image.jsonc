@@ -1,0 +1,100 @@
+{
+  "image#home__image--ofertas1": {
+    "title": "imagen de Home",
+    "props": {
+      "src": "assets/img/Redmi10a.png",
+      "title": "Mas vendido",
+      "width": "100%",
+      "blockClass": "home__image",
+      "link": {
+        "url": "/sol/p",
+        "newTab": false,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "image#home__image--ofertas2": {
+    "title": "imagen de Home",
+    "props": {
+      "src": "assets/img/Redmi 9a.png",
+      "title": "Mas vendido",
+      "width": "100%",
+      "blockClass": "home__image",
+      "link": {
+        "url": "/puerta-triplex-okume/p",
+        "newTab": false,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "image#home__image--ofertas3": {
+    "title": "imagen de Home",
+    "props": {
+      "src": "assets/img/POco M4 Pro.png",
+      "width": "100%",
+      "title": "Mas vendido",
+      "blockClass": "home__image",
+      "link": {
+        "url": "/queso-alpina/p",
+        "newTab": false,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "image#home__image": {
+    "title": "imagen de Home",
+    "props": {
+      "src": "assets/img/Banners/img-banner-one-home.jpg",
+      "title": "B2B Commerce",
+      "blockClass": "home__image",
+      "link": {
+        "url": "/cemento-argos-gris-50kg/p",
+        "newTab": false,
+        "attributeNoFollow": true
+      }
+    }
+  },
+  "image#home__image--BannerSecundario": {
+    "title": "Banner Home secundario ",
+    "props": {
+      "src": "assets/img/Banners/img-banner-teo-home.webp",
+      "title": "Banner Home Terceario",
+      "blockClass": "home__image"
+    }
+  },
+  "image#home__slider--one": {
+    "props": {
+      "src": "assets/img/Slider-Home/img-slider-two.gif"
+    }
+  },
+  "image#home__slider--two": {
+    "props": {
+      "src": "assets/img/Slider-Home/img-slider.gif"
+    }
+  },
+  "image#home__slider--three": {
+    "props": {
+      "src": "assets/img/Slider-Home/slide3.jpg"
+    }
+  },
+  "image#home__slider--one-mobile": {
+    "props": {
+      "src": "assets/img/Slider-Home/mobile/slidermobile.jpg"
+    }
+  },
+  "image#home__slider--two-mobile": {
+    "props": {
+      "src": "assets/img/Slider-Home/mobile/slidermobile.jpg"
+    }
+  },
+  "image#home__slider--three-mobile": {
+    "props": {
+      "src": "assets/img/Slider-Home/mobile/sliderMobile2.jpg"
+    }
+  },
+  "image#home__slider--four-mobile": {
+    "props": {
+      "src": "assets/img/Slider-Home/mobile/sliderMobile3.jpg"
+    }
+  }
+}

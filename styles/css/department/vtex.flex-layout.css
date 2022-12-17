@@ -1,0 +1,36 @@
+.flexRow--flex-layout-rich--container {
+    visibility: hidden;
+}
+
+.flexRow--container--filters {
+    max-width: 1260px;
+    margin   : 0 auto;
+    width    : 100%;
+}
+
+.flexCol--filters--search {
+    display        : flex;
+    flex-direction : row;
+    justify-content: flex-end;
+    align-items    : center;
+}
+
+.flexCol--filters--search--mobile {
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+.flexColChild--filters--search {
+    display    : flex;
+    align-items: center;
+}
+
+.flexRow--container-Search--content {
+    max-width    : 1260px;
+    margin       : 0 auto;
+    width        : 100%;
+    margin-top   : 20px;
+    margin-bottom: 50px;
+}

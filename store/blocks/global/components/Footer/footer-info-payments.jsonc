@@ -1,0 +1,95 @@
+{
+  //Columna contenedora de las filas de los iconos de medios de pago
+  "flex-layout.col#footer__section__info--payments": {
+    "children": [
+      "flex-layout.row#footer--payments-top",
+      "flex-layout.row#footer--payments-bottom"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  //Columa de Pagos superior (iconos)
+  "flex-layout.row#footer--payments-top": {
+    "title": "Columna de pago Superior",
+    "children": [
+      "image#icon__pagoSeguro",
+      "image#icon__mercadopago",
+      "image#icon__mastercard",
+      "image#icon__visa"
+    ],
+    "props": {
+      "blockClass": "footer-payments-top",
+      "colSizing": "auto",
+      "horizontalAlign": "center"
+    }
+  },
+  "image#icon__pagoSeguro": {
+    "title": "Icono pago seguro",
+    "props": {
+      "src": "assets/img/icon payments/PAgoseguro2.png",
+      "maxHeight": 30,
+      "blockClass": "footer__payments--images"
+    }
+  },
+  "image#icon__mercadopago": {
+    "title": "Icono mercadopago",
+    "props": {
+      "src": "assets/img/icon payments/mercadopago.png",
+      "maxHeight": 24,
+      "blockClass": "footer__payments--images"
+    }
+  },
+  "image#icon__mastercard": {
+    "title": "Icono Mastercard",
+    "props": {
+      "src": "assets/img/icon payments/mastercard20.png",
+      "maxHeight": 25,
+      "blockClass": "footer__payments--images"
+    }
+  },
+  "image#icon__visa": {
+    "title": "Icono visa",
+    "props": {
+      "src": "assets/img/icon payments/visa20.png",
+      "maxHeight": 13
+    }
+  },
+  //Columa de Pagos Inferior (iconos)
+  "flex-layout.row#footer--payments-bottom": {
+    "title": "Columna de pago Inferior",
+    "children": [
+      "image#icon__efecty",
+      "image#icon__visahidden",
+      "image#icon__vinneren"
+    ],
+    "props": {
+      "marginTop": 4,
+      "blockClass": "footer-payments-top",
+      "colSizing": "auto",
+      "horizontalAlign": "center"
+    }
+  },
+  "image#icon__efecty": {
+    "title": "Icono efecty",
+    "props": {
+      "src": "assets/img/icon payments/efecty.webp",
+      "maxHeight": 21
+    }
+  },
+  "image#icon__visahidden": {
+    "props": {
+      "src": "assets/img/icon payments/visa20.png",
+      "maxHeight": 13,
+      "blockClass": "visa--img-hidden"
+    }
+  },
+
+  "image#icon__vinneren": {
+    "title": "Icono Vineren",
+    "props": {
+      "src": "assets/img/icon payments/vinneren_blanco25.png",
+      "maxHeight": 21
+    }
+  }
+}

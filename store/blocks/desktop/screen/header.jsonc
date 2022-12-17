@@ -1,8 +1,9 @@
 {
-  "header": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
-  },
-  "header.full": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  "header-layout.desktop": {
+    "title": "header Desktop",
+    "children": ["header-row#1-searchBar-desktop", "header-row#2-menu-desktop"],
+    "props": {
+      "blockClass": "header-layou--containert"
+    }
   }
 }

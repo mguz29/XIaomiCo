@@ -1,0 +1,70 @@
+.menuContainerNav--Menu--header-desktop {
+  margin-right: 4%;
+}
+
+.styledLinkContent--header--menu__item:hover {
+  color: #ff6900;
+}
+
+.styledLinkContent--header--menu__item {
+  font-size     : 14px;
+  font-weight   : 700;
+  font-stretch  : normal;
+  font-style    : normal;
+  line-height   : 1.35;
+  letter-spacing: normal;
+  color         : #1c1c1c;
+}
+
+.submenuContainer--submenu-header {
+  position: absolute;
+  top     : -12px;
+  width   : 100%;
+  display : block;
+  z-index : -1;
+  left    : 0;
+}
+
+.submenuContainer--submenu-header:hover {
+  height: 400px;
+}
+
+.submenuWrapper--submenu-header {
+  width  : 100%;
+  padding: 80px 0 20px;
+}
+
+.menuContainer--department-submenu-hijo {
+  width    : 100%;
+  max-width: 1226px !important;
+  margin   : 0 auto;
+  display  : flex;
+}
+
+.menuContainerNav--department-submenu-hijo {
+  width    : 100%;
+  max-width: 1226px !important;
+  margin   : 0 auto;
+  display  : flex;
+}
+
+.menuContainer--header--menu__mobile :global(.vtex-menu-2-x-styledLinkContent) {
+  font-size: 32px;
+  padding  : 20px 0;
+  color    : #1c1c1c;
+}
+
+.menuContainerNav--header--menu__mobile {
+  width: 90%;
+}
+
+.vtex-menu-2-x-styledLinkContent--menu--item__department {
+  font-weight: 700 !important;
+  font-size  : 32px;
+  padding    : 20px 0;
+  color      : #1c1c1c;
+}
+
+.menuContainerNav--menu--drawer-close-button {
+  margin-top: 60%;
+}

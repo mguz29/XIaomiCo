@@ -1,0 +1,18 @@
+{
+  "flex-layout.row#home__section--banner": {
+    "title": "seccion Banner",
+    "children": ["flex-layout.col#section__banner--image"],
+    "props": {
+      "marginBottom": 4,
+      "blockClass": "home__section--banner",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#section__banner--image": {
+    "title": "Banner Image",
+    "children": ["image#home__image"],
+    "props": {
+      "blockClass": "BannerContainer--home"
+    }
+  }
+}

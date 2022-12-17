@@ -1,0 +1,66 @@
+{
+  "flex-layout.row#footer__info": {
+    "children": ["flex-layout.col#footer__section__info--mobile"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  // Columna contenedore de las tres secciones
+  "flex-layout.col#footer__section__info--mobile": {
+    "title": "Columna contenedora de las tres secciones",
+    "children": [
+      "flex-layout.col#footer__section__info--numero",
+      "flex-layout.col#footer__section__info--horario",
+      "flex-layout.col#footer__section__info-email"
+    ],
+    "props": {
+      "width": "100%",
+      "blockClass": "section--info-mobile"
+    }
+  },
+  //Columna seccion uno numero de contacto
+  "flex-layout.col#footer__section__info--numero": {
+    "title": "Columna seccion uno numero de contacto",
+    "children": ["rich-text#footer__numero--celularmobile"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "rich-text#footer__numero--celularmobile": {
+    "title": "Numero de contacto",
+    "props": {
+      "blockClass": "footer-menu__item-tel--mobile",
+      "text": "57 1381 2897"
+    }
+  },
+  //Columna seccion dos Horario de atencion
+  "flex-layout.col#footer__section__info--horario": {
+    "title": "Columna seccion dos Horario de atencion",
+    "children": ["rich-text#footer__horario--mobile"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "rich-text#footer__horario--mobile": {
+    "title": "Horario de atencion",
+    "props": {
+      "blockClass": "footer__menu-item--mobile",
+      "text": "Lun.-Vie. 8:00-18:00, Sab. 8:00-16:00"
+    }
+  },
+  //Columna seccion tres correco de contacto
+  "flex-layout.col#footer__section__info-email": {
+    "title": "Columna seccion tres correco de contacto",
+    "children": ["rich-text#footer__email--mobile"],
+    "props": {
+      "width": "100%"
+    }
+  },
+  "rich-text#footer__email--mobile": {
+    "title": "Email de contacto",
+    "props": {
+      "blockClass": "footer__menu-button--mobile",
+      "text": "HOLA@XIAOMI-STORE.CO"
+    }
+  }
+}

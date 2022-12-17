@@ -1,0 +1,11 @@
+.flexRow--container-politicas-seccion-one {
+  margin-right: 25px;
+  margin-left : 25px;
+}
+
+.flexCol--container-politicas-seccion-tres {
+  width       : 80% !important;
+  margin-left : auto;
+  margin-right: auto;
+  color       : #1c1c1c;
+}

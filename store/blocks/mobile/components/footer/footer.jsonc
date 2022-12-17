@@ -1,0 +1,41 @@
+{
+  "flex-layout.row#footer__newsletter--mobile": {
+    "children": ["newsletter-form#mobile"],
+    "props": {
+      "blockClass": "footer--Form--newsletter-mobile"
+    }
+  },
+  "newsletter-form#mobile": {
+    "children": ["flex-layout.row#footer__newsletter"],
+    "props": {
+      "blockClass": "newsletter--form--mobile"
+    }
+  },
+  "flex-layout.row#footer__info-contact--mobile": {
+    "children": [
+      "menu#footer__menu--group",
+      "flex-layout.row#footer__info",
+      "flex-layout.row#footer__payments",
+      "flex-layout.row#footer__Copyright"
+    ],
+    "props": {
+      "blockClass": "container-info-contact--mobile",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.row#footer__payments": {
+    "title": "Fila De pagos",
+    "children": ["flex-layout.col#footer__section__info--payments"],
+    "props": {
+      "marginTop": 4,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#footer--credits": {
+    "children": ["rich-text#footer--copyriht"],
+    "props": {
+      "marginBottom": 7,
+      "fullWidth": true
+    }
+  }
+}
