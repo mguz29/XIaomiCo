@@ -79,5 +79,13 @@ If the process runs without any errors, the following message will be displayed:
 
 This will enable you to see the applied changes in real time, through the account and workspace in which you are working.
 
+## Workspace
+* https://marlon--itgloberspartnercl.myvtex.com/
+
+## Components Custom
+* https://github.com/mguz29/vuitg-whatsapp-buttom-xiaomi-storehttps://github.com/mguz29/vuitg-whatsapp-buttom-xiaomi-store
+
+* https://github.com/mguz29/vuitg-bullets-diagramation-xiaomi-store
+
 # Contributors
 1. Marlon Guzman Acosta
